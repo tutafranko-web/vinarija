@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 30% 98%;
+    --foreground: 345 40% 15%;
+    --card: 30 25% 96%;
+    --card-foreground: 345 40% 15%;
+    --primary: 345 60% 30%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 60% 55%;
+    --secondary-foreground: 345 40% 15%;
+    --muted: 30 15% 93%;
+    --muted-foreground: 345 10% 45%;
+    --accent: 345 50% 20%;
+    --accent-foreground: 0 0% 100%;
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 345 60% 30%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(30, 10, 15, 0.85) 0%,
+    rgba(30, 10, 15, 0.4) 40%,
+    rgba(30, 10, 15, 0.1) 70%,
+    transparent 100%
+  );
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Pocetna",
+    "about": "O nama",
+    "winesRestaurant": "Vina & Restoran",
+    "gallery": "Galerija",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "reserve": "Rezerviraj"
+  },
+  "hero": {
+    "title": "Luviji",
+    "subtitle": "Obiteljska vinarija i restoran u srcu Hvara",
+    "cta": "Rezerviraj stol"
+  },
+  "story": {
+    "sectionTitle": "Nasa prica",
+    "sectionSubtitle": "Vise od 10 godina strasti, tradicije i ljubavi prema vinu",
+    "text": "Obitelj Luviji vec generacijama njeguje vinograde na suncanim padinama otoka Hvara. Nasa prica je prica o posvecnosti zemlji, postovanju tradicije i zelji da s vama podijelimo autenticni okus Dalmacije. U nasem malom obiteljskom restoranu u centru Hvara, svako jelo pripremamo s ljubavlju -- koristeci najsvjezije lokalne namirnice i nasa vlastita vina.",
+    "cta": "Saznaj vise o nama"
+  },
+  "wines": {
+    "sectionTitle": "Nasa vina",
+    "sectionSubtitle": "Autohtone hvarske sorte uzgojene s ljubavlju",
+    "viewAll": "Pogledaj sva vina",
+    "tastingNotes": "Degustacijske note",
+    "grape": "Sorta"
+  },
+  "restaurant": {
+    "sectionTitle": "Nas restoran",
+    "sectionSubtitle": "Tradicionalna hvarska i dalmatinska kuhinja",
+    "text": "U nasem malom obiteljskom restoranu u centru grada Hvara, posluzujemo jela pripremljena prema receptima koji se prenose generacijama. Svjeza riba s rostilja, hobotnica ispod peke, gregada, domace tjestenine i naravno -- nasa vlastita vina.",
+    "menuHighlights": "Preporuke kuce",
+    "hours": "Radno vrijeme",
+    "reserveCta": "Rezervirajte vas stol"
+  },
+  "testimonials": {
+    "sectionTitle": "Sto gosti kazu",
+    "sectionSubtitle": "Iskustva nasih posjetitelja"
+  },
+  "cta": {
+    "title": "Dozivite autenticni Hvar",
+    "subtitle": "Rezervirajte degustaciju vina ili stol u nasem restoranu i upoznajte pravu dalmatinsku tradiciju.",
+    "button": "Rezervirajte sada"
+  },
+  "about": {
+    "sectionTitle": "O nama",
+    "sectionSubtitle": "Obiteljska tradicija duga vise od 10 godina",
+    "story": "Vinarija Luviji nastala je iz duboke ljubavi prema hvarskoj zemlji i vinskoj tradiciji. Vec vise od jednog desetljeca, nasi vinogradi na suncem okupanim padinama otoka Hvara radjaju grozdjem vrhunske kvalitete. Svaka boca naseg vina nosi u sebi pricu o strpljenju, posvecenosti i postovanju prema prirodi.\n\nNas mali obiteljski restoran u samom centru grada Hvara mjesto je gdje se ta prica nastavlja za stolom. Ovdje gostima nudimo autenticna hvarska jela pripremljena s najsvjezijim lokalnim namirnicama, u paru s nasim vinima -- stvarajuci iskustvo koje ostaje u sjecanju.",
+    "mission": "Nasa misija je sacuvati i podijeliti bogatstvo hvarske vinarske i gastronomske bastine s posjetiteljima iz cijelog svijeta.",
+    "values": {
+      "tradition": {
+        "title": "Tradicija",
+        "text": "Cuvamo i nastavljamo stoljetnu hvarsku vinarsku tradiciju"
+      },
+      "quality": {
+        "title": "Kvaliteta",
+        "text": "Svaka kap naseg vina rezultat je pazljivog rada i odanosti kvaliteti"
+      },
+      "hospitality": {
+        "title": "Gostoprimstvo",
+        "text": "Svaki gost je dio nase obitelji -- toplina i srdacnost su nam u krvi"
+      },
+      "passion": {
+        "title": "Strast",
+        "text": "Ljubav prema vinu, hrani i Hvaru pokrece sve sto radimo"
+      }
+    }
+  },
+  "gallery": {
+    "sectionTitle": "Galerija",
+    "sectionSubtitle": "Pogledajte nase vinograde, vina, restoran i ljepote Hvara",
+    "all": "Sve",
+    "vineyard": "Vinograd",
+    "wineCategory": "Vina",
+    "restaurantCategory": "Restoran",
+    "hvar": "Hvar"
+  },
+  "blog": {
+    "sectionTitle": "Blog",
+    "sectionSubtitle": "Novosti, price o vinu i recepti iz nase kuhinje",
+    "readMore": "Procitaj vise",
+    "all": "Sve",
+    "news": "Novosti",
+    "wine": "Vino",
+    "recipes": "Recepti"
+  },
+  "contact": {
+    "sectionTitle": "Kontakt",
+    "sectionSubtitle": "Javite nam se ili nas posjetite u centru Hvara",
+    "name": "Vase ime",
+    "email": "Email adresa",
+    "message": "Poruka",
+    "send": "Posalji poruku",
+    "sending": "Slanje...",
+    "success": "Poruka je poslana! Javit cemo vam se uskoro.",
+    "phone": "Telefon",
+    "address": "Adresa",
+    "workingHours": "Radno vrijeme",
+    "followUs": "Pratite nas",
+    "orCallUs": "Ili nas nazovite direktno"
+  },
+  "footer": {
+    "company": "Luviji",
+    "tagline": "Obiteljska vinarija i restoran u srcu otoka Hvara. Autohtona vina, tradicionalna dalmatinska kuhinja i toplina doma.",
+    "quickLinks": "Brzi linkovi",
+    "contactInfo": "Kontakt informacije",
+    "followUs": "Pratite nas",
+    "rights": "Sva prava pridrzana."
+  }
+}
