@@ -4,9 +4,9 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ScrollReveal } from "@/components/shared/scroll-reveal";
-import { Grape, Award, Heart, Flame } from "lucide-react";
+import { Users, Wine, Star, Trophy } from "lucide-react";
 
-const valueIcons = [Grape, Award, Heart, Flame];
+const valueIcons = [Users, Wine, Star, Trophy];
 const valueKeys = ["tradition", "quality", "hospitality", "passion"] as const;
 
 export default function AboutPage() {

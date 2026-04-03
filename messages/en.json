@@ -11,59 +11,69 @@
   "hero": {
     "title": "Luviji",
     "subtitle": "Family winery & restaurant in the heart of Hvar",
-    "cta": "Reserve a Table"
+    "cta": "Book a Tasting"
   },
   "story": {
     "sectionTitle": "Our Story",
-    "sectionSubtitle": "Over 10 years of passion, tradition and love for wine",
-    "text": "The Luviji family has been tending vineyards on the sun-kissed slopes of Hvar island for generations. Our story is one of dedication to the land, respect for tradition, and the desire to share the authentic taste of Dalmatia with you. In our small family restaurant in the center of Hvar, every dish is prepared with love -- using the freshest local ingredients and our own wines.",
+    "sectionSubtitle": "Five generations of love for wine",
+    "text": "Did you know that Hvar island witnesses 2,400 years of winemaking history? It all started with the arrival of ancient Greeks and it is still happening. The Luviji family has been making wine for 5 generations. We produce 6 brands of quality wines in our old family house in the town center. Become part of the Hvar wine story -- where history meets tradition!",
     "cta": "Learn more about us"
   },
   "wines": {
     "sectionTitle": "Our Wines",
-    "sectionSubtitle": "Indigenous Hvar grape varieties grown with love",
-    "viewAll": "View all wines",
+    "sectionSubtitle": "6 brands of quality wines -- indigenous Hvar grape varieties",
+    "viewAll": "View all wines & tastings",
     "tastingNotes": "Tasting notes",
     "grape": "Grape variety"
   },
+  "tasting": {
+    "sectionTitle": "Wine Tasting",
+    "sectionSubtitle": "Experience our flavors in an authentic wine cellar",
+    "description": "We offer tasting packages in our unique wine cellar in the old family house. Each package includes a homemade platter with cheeses, cured meats, homemade olive oil and bread.",
+    "package4": "4 wines + homemade platter",
+    "package5": "5 wines + homemade platter",
+    "package6": "6 wines + homemade platter with Prosek",
+    "price": "from €25 per person",
+    "bookCta": "Book a tasting"
+  },
   "restaurant": {
     "sectionTitle": "Our Restaurant",
-    "sectionSubtitle": "Traditional Hvar and Dalmatian cuisine",
-    "text": "In our small family restaurant in the center of Hvar town, we serve dishes prepared according to recipes passed down through generations. Fresh grilled fish, octopus under the bell, gregada, homemade pasta, and of course -- our own wines.",
+    "sectionSubtitle": "Rooftop restaurant with views over Hvar town",
+    "text": "Besides our winery, we have a rooftop restaurant in the center of Hvar town where we serve traditional Dalmatian dishes paired with our own wines. Fresh grilled fish, octopus under the bell, gregada, homemade pasta -- all prepared with the freshest local ingredients and love for tradition.",
     "menuHighlights": "House recommendations",
     "hours": "Working hours",
     "reserveCta": "Reserve your table"
   },
   "testimonials": {
     "sectionTitle": "What Guests Say",
-    "sectionSubtitle": "Experiences from our visitors"
+    "sectionSubtitle": "#7 of 19 Food & Drink in Hvar -- rated 4.9/5 on TripAdvisor"
   },
   "cta": {
     "title": "Experience Authentic Hvar",
-    "subtitle": "Book a wine tasting or reserve a table in our restaurant and discover true Dalmatian tradition.",
+    "subtitle": "Visit our tasting room in the old family house or reserve a table at our rooftop restaurant.",
     "button": "Reserve Now"
   },
   "about": {
     "sectionTitle": "About Us",
-    "sectionSubtitle": "A family tradition spanning over 10 years",
-    "story": "Luviji Winery was born from a deep love for the land of Hvar and its winemaking tradition. For over a decade, our vineyards on the sun-drenched slopes of Hvar island have been producing grapes of exceptional quality. Every bottle of our wine carries a story of patience, dedication, and respect for nature.\n\nOur small family restaurant in the very center of Hvar town is where this story continues at the table. Here, we offer our guests authentic Hvar dishes prepared with the freshest local ingredients, paired with our wines -- creating an experience that stays in memory.",
-    "mission": "Our mission is to preserve and share the richness of Hvar's winemaking and gastronomic heritage with visitors from around the world.",
+    "sectionSubtitle": "Five generations of Hvar winemaking tradition",
+    "story": "Hvar island witnesses 2,400 years of winemaking history -- it all started with the arrival of ancient Greeks and it is still happening. The Luviji family has been making wine on this unique island for five generations. Our vineyards on the sun-drenched slopes of Hvar produce grapes of exceptional quality, and every bottle of our wine carries a story of patience, dedication and respect for nature.\n\nOur tasting room is located in the old family house in the very center of Hvar town. We also have a rooftop restaurant where we offer guests authentic Dalmatian dishes paired with our wines. We produce 6 brands of quality wines -- from fresh whites to powerful reds, including our award-winning Plavac Mali which won the Gold medal and Best of Show Croatia title at BIWC 2024.",
+    "mission": "Become part of the Hvar wine story -- where history meets tradition!",
     "values": {
       "tradition": {
-        "title": "Tradition",
-        "text": "We preserve and continue centuries-old Hvar winemaking tradition"
+        "title": "5 Generations",
+        "text": "A family winemaking tradition passed down from generation to generation for five generations"
       },
       "quality": {
-        "title": "Quality",
-        "text": "Every drop of our wine is the result of careful work and dedication to quality"
+        "title": "6 Wine Brands",
+        "text": "We produce 6 quality wines from indigenous varieties -- Posip, Plavac Mali, Rose, Prosek and more"
       },
       "hospitality": {
-        "title": "Hospitality",
-        "text": "Every guest is part of our family -- warmth and cordiality are in our blood"
+        "title": "Rated 4.9/5",
+        "text": "#7 of 19 Food & Drink in Hvar -- our guests love us"
       },
       "passion": {
-        "title": "Passion",
-        "text": "Love for wine, food and Hvar drives everything we do"
+        "title": "BIWC 2024 Gold",
+        "text": "Our Plavac Mali won the Gold medal and Best of Show Croatia at the Balkans International Wine Competition"
       }
     }
   },
@@ -102,7 +112,7 @@
   },
   "footer": {
     "company": "Luviji",
-    "tagline": "Family winery and restaurant in the heart of Hvar island. Indigenous wines, traditional Dalmatian cuisine and the warmth of home.",
+    "tagline": "Family winery and restaurant in the heart of Hvar island. 5 generations, 6 quality wine brands, 2,400 years of winemaking tradition.",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Info",
     "followUs": "Follow Us",
