@@ -10,7 +10,7 @@ export function HeroImage() {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center">
       <Image
-        src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1920&h=1080&fit=crop"
+        src="/images/vineyard/vinograd.jpeg"
         alt="Vinogradi na otoku Hvaru"
         fill
         className="object-cover"

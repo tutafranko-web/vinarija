@@ -9,6 +9,7 @@ export interface Wine {
   tastingNotesHr: string;
   tastingNotesEn: string;
   image: string;
+  award?: string;
 }
 
 export const wines: Wine[] = [
@@ -26,8 +27,8 @@ export const wines: Wine[] = [
       "Tamno rubinaste boje s aromama zrele visnje, sljive, crnog papra i diskretnim tonovima vanilije. Punog tijela, s mekom taninom i dugim zavrsetkom.",
     tastingNotesEn:
       "Deep ruby color with aromas of ripe cherry, plum, black pepper and subtle vanilla notes. Full-bodied, with soft tannins and a long finish.",
-    image:
-      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&h=800&fit=crop",
+    image: "/images/wine/boca-nagrada.jpeg",
+    award: "BIWC 2024 Gold - Best of Show Croatia",
   },
   {
     id: "bogdanusa",
@@ -43,8 +44,7 @@ export const wines: Wine[] = [
       "Svijetlo zlatne boje s notama bijelog cvijeca, limuna i zelene jabuke. Svjeze i harmonicno, s ugodnom minerralnoscu koja podsjecaju na blizinu mora.",
     tastingNotesEn:
       "Light golden color with notes of white flowers, lemon and green apple. Fresh and harmonious, with a pleasant minerality reminiscent of the nearby sea.",
-    image:
-      "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&h=800&fit=crop",
+    image: "/images/wine/boca-hvar.jpeg",
   },
   {
     id: "rose",

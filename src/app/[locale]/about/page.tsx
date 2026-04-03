@@ -25,8 +25,8 @@ export default function AboutPage() {
           <ScrollReveal direction="left">
             <div className="relative h-[500px] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&h=800&fit=crop"
-                alt="Vinogradi na Hvaru"
+                src="/images/wine/boca-hvar.jpeg"
+                alt="Luviji vino s pogledom na Hvar"
                 fill
                 className="object-cover"
               />

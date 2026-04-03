@@ -19,8 +19,8 @@ export function StoryPreview() {
           <ScrollReveal direction="left">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&h=600&fit=crop"
-                alt="Vinograd na Hvaru"
+                src="/images/cellar/podrum-2.jpeg"
+                alt="Vinski podrum Luviji"
                 fill
                 className="object-cover"
               />

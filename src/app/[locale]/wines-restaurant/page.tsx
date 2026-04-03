@@ -95,8 +95,8 @@ export default function WinesRestaurantPage() {
           <ScrollReveal direction="left">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop"
-                alt="Restoran Luviji"
+                src="/images/restaurant/terasa.jpeg"
+                alt="Terasa restorana Luviji s pogledom na Hvar"
                 fill
                 className="object-cover"
               />

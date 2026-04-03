@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Luviji",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1200&h=630&fit=crop",
+        url: "/images/wine/boca-nagrada.jpeg",
         width: 1200,
         height: 630,
         alt: "Luviji - Vinarija & Restoran Hvar",

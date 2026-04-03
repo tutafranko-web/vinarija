@@ -17,63 +17,48 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&h=600&fit=crop",
-    alt: "Vinograd na Hvaru",
+    src: "/images/vineyard/vinograd.jpeg",
+    alt: "Vinograd na Hvaru - grozdovi Bogdanuse",
     category: "vineyard",
   },
   {
-    src: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&h=600&fit=crop",
-    alt: "Grozdovi na suncu",
-    category: "vineyard",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1464638681168-ab2c9ab067b0?w=800&h=600&fit=crop",
-    alt: "Berba grozdja",
-    category: "vineyard",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&h=600&fit=crop",
-    alt: "Crno vino u čaši",
+    src: "/images/wine/boca-hvar.jpeg",
+    alt: "Luviji vino s pogledom na grad Hvar",
     category: "wine",
   },
   {
-    src: "https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&h=600&fit=crop",
-    alt: "Bijelo vino",
+    src: "/images/wine/boca-nagrada.jpeg",
+    alt: "Luviji vino - BIWC 2024 Gold, Best of Show Croatia",
     category: "wine",
   },
   {
-    src: "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&h=600&fit=crop",
-    alt: "Vinski podrum",
+    src: "/images/cellar/podrum-1.png",
+    alt: "Vinski podrum Luviji",
     category: "wine",
   },
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop",
-    alt: "Restoran jelo",
+    src: "/images/cellar/podrum-2.jpeg",
+    alt: "Vinski podrum Luviji - degustacijska sala",
+    category: "wine",
+  },
+  {
+    src: "/images/restaurant/gregada.jpeg",
+    alt: "Gregada - tradicionalno hvarsko jelo",
     category: "restaurant",
   },
   {
-    src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop",
-    alt: "Mediteranski stol",
-    category: "restaurant",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&h=600&fit=crop",
-    alt: "Svježa riba",
+    src: "/images/restaurant/terasa.jpeg",
+    alt: "Terasa restorana Luviji s pogledom na Hvar",
     category: "restaurant",
   },
   {
     src: "https://images.unsplash.com/photo-1555990538-1e15c7c05428?w=800&h=600&fit=crop",
-    alt: "Grad Hvar",
+    alt: "Grad Hvar iz zraka",
     category: "hvar",
   },
   {
     src: "https://images.unsplash.com/photo-1586500038924-5c7e78e85989?w=800&h=600&fit=crop",
     alt: "Hvarska luka",
-    category: "hvar",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&h=600&fit=crop",
-    alt: "Lavanda Hvar",
     category: "hvar",
   },
 ];

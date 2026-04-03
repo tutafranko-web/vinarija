@@ -33,7 +33,7 @@ export function WinesPreview() {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-3 right-3">
+                  <div className="absolute top-3 right-3 flex flex-col gap-1 items-end">
                     <span
                       className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide text-white ${
                         wine.type === "red"
@@ -49,6 +49,11 @@ export function WinesPreview() {
                         ? locale === "hr" ? "Bijelo" : "White"
                         : "Rose"}
                     </span>
+                    {wine.award && (
+                      <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-yellow-500/90 text-white">
+                        {wine.award}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="p-5">

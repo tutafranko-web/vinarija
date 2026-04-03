@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { LanguageSwitcher } from "./language-switcher";
-import { Menu, X, Wine } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { PHONE_NUMBER } from "@/lib/constants";
 
@@ -46,18 +46,22 @@ export function Navbar() {
     >
       <nav className="container-custom flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <Wine
+        <Link href="/" className="flex items-center group">
+          <div
             className={cn(
-              "h-7 w-7 transition-colors",
+              "w-10 h-10 rounded-full flex items-center justify-center text-center leading-none transition-all",
               isScrolled || !isHome || isMobileOpen
-                ? "text-primary"
-                : "text-white"
+                ? "bg-[hsl(40,40%,90%)]"
+                : "bg-[hsl(40,40%,90%)]"
             )}
-          />
+          >
+            <span className="font-heading text-[10px] font-bold tracking-widest text-foreground leading-tight">
+              LU<br />VIJI
+            </span>
+          </div>
           <span
             className={cn(
-              "font-bold text-xl tracking-tight font-heading transition-colors",
+              "ml-2 font-bold text-xl tracking-tight font-heading transition-colors",
               isScrolled || !isHome || isMobileOpen
                 ? "text-foreground"
                 : "text-white"

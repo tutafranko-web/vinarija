@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Wine, Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import {
   PHONE_DISPLAY,
   PHONE_NUMBER,
@@ -21,8 +21,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Wine className="h-6 w-6 text-secondary" />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-full bg-[hsl(40,40%,90%)] flex items-center justify-center">
+                <span className="font-heading text-[10px] font-bold tracking-widest text-foreground leading-tight text-center">
+                  LU<br />VIJI
+                </span>
+              </div>
               <span className="font-bold text-xl font-heading">
                 {t("company")}
               </span>
