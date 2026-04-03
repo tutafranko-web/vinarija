@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
 import { PHONE_NUMBER } from "@/lib/constants";
 
 const heroImages = [
@@ -33,26 +32,24 @@ export function HeroImage() {
 
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Slideshow images */}
-      <AnimatePresence mode="popLayout">
-        <motion.div
-          key={current}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1.2, ease: "easeInOut" }}
-          className="absolute inset-0"
+      {/* All images stacked, only current one visible */}
+      {heroImages.map((img, i) => (
+        <div
+          key={img.src}
+          className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+          style={{ opacity: i === current ? 1 : 0 }}
         >
           <Image
-            src={heroImages[current].src}
-            alt={heroImages[current].alt}
+            src={img.src}
+            alt={img.alt}
             fill
             className="object-cover"
-            priority={current === 0}
+            priority={i === 0}
+            sizes="100vw"
             quality={85}
           />
-        </motion.div>
-      </AnimatePresence>
+        </div>
+      ))}
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 hero-gradient z-[1]" />
@@ -79,10 +76,10 @@ export function HeroImage() {
           <button
             key={i}
             onClick={() => setCurrent(i)}
-            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+            className={`h-2.5 rounded-full transition-all duration-300 ${
               i === current
                 ? "bg-secondary w-8"
-                : "bg-white/50 hover:bg-white/80"
+                : "bg-white/50 hover:bg-white/80 w-2.5"
             }`}
             aria-label={`Slide ${i + 1}`}
           />
