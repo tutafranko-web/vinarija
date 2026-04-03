@@ -7,7 +7,6 @@ import { PHONE_NUMBER } from "@/lib/constants";
 
 const heroImages = [
   { src: "/images/vineyard/vinograd.jpeg", alt: "Vinogradi na otoku Hvaru" },
-  { src: "/images/wine/boca-nagrada.jpeg", alt: "Luviji vino - BIWC 2024 Gold" },
   { src: "/images/cellar/podrum-2.jpeg", alt: "Vinski podrum Luviji" },
   { src: "/images/restaurant/gregada.jpeg", alt: "Gregada - tradicionalno hvarsko jelo" },
   { src: "/images/wine/boca-hvar.jpeg", alt: "Luviji vino s pogledom na Hvar" },
