@@ -36,8 +36,11 @@ export function RestaurantPreview() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
                 src="/images/restaurant/gregada.jpeg"
-                alt="Gregada - tradicionalno hvarsko jelo"
+                alt="Gregada - tradicionalno hvarsko jelo od bijele ribe"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={80}
+                loading="lazy"
                 className="object-cover"
               />
             </div>

@@ -1,0 +1,18 @@
+{
+  "name": "Luviji -- Vinarija & Restoran Hvar",
+  "short_name": "Luviji",
+  "description": "Family winery and rooftop restaurant in Hvar, Croatia. 5 generations, 6 wine brands, BIWC 2024 Gold for Plavac Mali.",
+  "start_url": "/hr",
+  "display": "standalone",
+  "background_color": "#fbf6f1",
+  "theme_color": "#7a1f33",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/wine/boca-nagrada.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

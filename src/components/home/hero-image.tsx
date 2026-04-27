@@ -11,7 +11,7 @@ const heroImages = [
   { src: "/images/restaurant/gregada.jpeg", alt: "Gregada - tradicionalno hvarsko jelo" },
   { src: "/images/wine/boca-hvar.jpeg", alt: "Luviji vino s pogledom na Hvar" },
   { src: "/images/restaurant/terasa.jpeg", alt: "Terasa restorana s pogledom na Hvar" },
-  { src: "/images/cellar/podrum-1.png", alt: "Vinski podrum Luviji" },
+  { src: "/images/cellar/podrum-1.jpg", alt: "Vinski podrum Luviji - degustacijska sala" },
 ];
 
 const INTERVAL = 5000;
@@ -42,10 +42,11 @@ export function HeroImage() {
             src={img.src}
             alt={img.alt}
             fill
-            className="object-cover"
-            priority={i === 0}
             sizes="100vw"
-            quality={85}
+            quality={i === 0 ? 85 : 75}
+            priority={i === 0}
+            loading={i === 0 ? "eager" : "lazy"}
+            className="object-cover"
           />
         </div>
       ))}

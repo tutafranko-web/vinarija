@@ -29,8 +29,11 @@ export function WinesPreview() {
                 <div className="relative h-64 overflow-hidden">
                   <Image
                     src={wine.image}
-                    alt={locale === "hr" ? wine.nameHr : wine.nameEn}
+                    alt={`${locale === "hr" ? wine.nameHr : wine.nameEn} - Luviji vinarija Hvar`}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    quality={80}
+                    loading="lazy"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 right-3 flex flex-col gap-1 items-end">

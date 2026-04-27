@@ -24,8 +24,11 @@ export function TastingPreview() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
                 src="/images/cellar/podrum-2.jpeg"
-                alt="Vinski podrum Luviji - degustacija"
+                alt="Vinski podrum Luviji - degustacija vina u Hvaru"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={80}
+                loading="lazy"
                 className="object-cover"
               />
             </div>

@@ -20,8 +20,11 @@ export function StoryPreview() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
                 src="/images/cellar/podrum-2.jpeg"
-                alt="Vinski podrum Luviji"
+                alt="Vinski podrum Luviji u staroj obiteljskoj kuci"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={80}
+                loading="lazy"
                 className="object-cover"
               />
             </div>
