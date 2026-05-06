@@ -13,6 +13,8 @@ import {
   Instagram,
   Send,
   CheckCircle,
+  Calendar,
+  ExternalLink,
 } from "lucide-react";
 import {
   PHONE_NUMBER,
@@ -21,6 +23,7 @@ import {
   ADDRESS,
   SOCIAL_LINKS,
   WORKING_HOURS,
+  getBookingUrl,
 } from "@/lib/constants";
 
 export function ContactContent() {
@@ -39,9 +42,38 @@ export function ContactContent() {
         <h1 className="text-4xl sm:text-5xl font-bold font-heading text-foreground text-center mb-3">
           {t("sectionTitle")}
         </h1>
-        <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-12">
+        <p className="text-lg text-muted-foreground text-center max-w-2xl mx-auto mb-8">
           {t("sectionSubtitle")}
         </p>
+
+        {/* Booking CTA banner */}
+        <div className="max-w-3xl mx-auto mb-12">
+          <a
+            href={getBookingUrl(locale)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between gap-4 bg-gradient-to-r from-primary to-[hsl(345,60%,35%)] text-primary-foreground rounded-2xl p-5 sm:p-6 hover:shadow-xl transition-all"
+          >
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center flex-shrink-0">
+                <Calendar className="h-6 w-6 text-secondary" />
+              </div>
+              <div>
+                <h2 className="font-heading font-bold text-lg sm:text-xl">
+                  {locale === "hr"
+                    ? "Online rezervacija stola"
+                    : "Online Table Reservation"}
+                </h2>
+                <p className="text-white/80 text-sm">
+                  {locale === "hr"
+                    ? "Konoba Luviji Rooftop -- rezervacija u nekoliko klikova"
+                    : "Konoba Luviji Rooftop -- reservation in a few clicks"}
+                </p>
+              </div>
+            </div>
+            <ExternalLink className="h-5 w-5 text-secondary group-hover:translate-x-1 transition-transform flex-shrink-0" />
+          </a>
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mt-8">
           {/* Contact Info */}

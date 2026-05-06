@@ -1,7 +1,7 @@
 export const SITE_NAME = "Luviji";
 export const PHONE_NUMBER = "+385 91 519 8444";
 export const PHONE_DISPLAY = "091 519 8444";
-export const EMAIL = "info@luviji.hr";
+export const EMAIL = "luviji.hvar@gmail.com";
 export const ADDRESS = "Centar grada Hvara, 21450 Hvar";
 
 export const SOCIAL_LINKS = {
@@ -9,6 +9,14 @@ export const SOCIAL_LINKS = {
   instagram: "https://www.instagram.com/luviji",
   google: "https://g.page/luviji",
 };
+
+export const BOOKING_URL =
+  "https://bookmeatable.com/restaurants/konoba-luviji-rooftop-135";
+
+export function getBookingUrl(locale: string): string {
+  const lang = locale === "hr" ? "hr" : "en-g";
+  return `${BOOKING_URL}?lang=${lang}`;
+}
 
 export const GOOGLE_MAPS_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.8!2d16.4411!3d43.1729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHvar!5e0!3m2!1shr!2shr!4v1";

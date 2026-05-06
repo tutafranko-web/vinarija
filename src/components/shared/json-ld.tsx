@@ -60,7 +60,24 @@ export function OrganizationJsonLd() {
       `${SITE_URL}/images/vineyard/vinograd.jpeg`,
     ],
     telephone: "+385915198444",
-    email: "info@luviji.hr",
+    email: "luviji.hvar@gmail.com",
+    potentialAction: {
+      "@type": "ReserveAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate:
+          "https://bookmeatable.com/restaurants/konoba-luviji-rooftop-135?lang=en-g",
+        inLanguage: ["hr", "en"],
+        actionPlatform: [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform",
+        ],
+      },
+      result: {
+        "@type": "Reservation",
+        name: "Konoba Luviji Rooftop reservation",
+      },
+    },
     foundingDate: "1900",
     slogan: "Where history meets tradition -- 5 generations of Hvar winemaking",
     award: [
@@ -148,6 +165,7 @@ export function OrganizationJsonLd() {
       "https://www.facebook.com/luviji",
       "https://www.instagram.com/luviji",
       "https://www.tripadvisor.com/Attraction_Review-g303808-d23519765-Reviews-Wine_tasting_room_Luviji-Hvar_Hvar_Island_Split_Dalmatia_County_Dalmatia.html",
+      "https://bookmeatable.com/restaurants/konoba-luviji-rooftop-135",
     ],
   };
 

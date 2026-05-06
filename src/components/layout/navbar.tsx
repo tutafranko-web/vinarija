@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { LanguageSwitcher } from "./language-switcher";
+import { useLocale } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { PHONE_NUMBER } from "@/lib/constants";
+import { getBookingUrl } from "@/lib/constants";
 
 const navLinks = [
   { href: "/", key: "home" },
@@ -20,6 +21,8 @@ const navLinks = [
 export function Navbar() {
   const t = useTranslations("nav");
   const pathname = usePathname();
+  const locale = useLocale();
+  const bookingUrl = getBookingUrl(locale);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -100,7 +103,9 @@ export function Navbar() {
           />
 
           <a
-            href={`tel:${PHONE_NUMBER}`}
+            href={bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:inline-flex items-center px-4 py-2 text-sm font-semibold rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-colors shadow-sm"
           >
             {t("reserve")}
@@ -145,7 +150,9 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href={`tel:${PHONE_NUMBER}`}
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 text-center px-4 py-3 rounded-full bg-secondary text-secondary-foreground font-semibold"
             >
               {t("reserve")}

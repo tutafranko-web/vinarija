@@ -7,7 +7,7 @@ import { ArrowLeft, Calendar, Clock, ArrowRight, Wine } from "lucide-react";
 import Image from "next/image";
 import { getBlogPostBySlug, getRelatedPosts } from "@/lib/blog-data";
 import { ScrollReveal } from "@/components/shared/scroll-reveal";
-import { PHONE_NUMBER } from "@/lib/constants";
+import { getBookingUrl } from "@/lib/constants";
 
 function renderContent(content: string) {
   const blocks = content.split("\n\n");
@@ -245,7 +245,9 @@ export function BlogPostContent() {
               : "Visit us in the center of Hvar for a wine tasting or dinner in our restaurant."}
           </p>
           <a
-            href={`tel:${PHONE_NUMBER}`}
+            href={getBookingUrl(locale)}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground font-semibold px-6 py-3 rounded-full hover:bg-[hsl(40,60%,50%)] transition-colors"
           >
             {locale === "hr" ? "Rezerviraj sada" : "Reserve Now"}

@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
-import { PHONE_NUMBER } from "@/lib/constants";
+import { getBookingUrl } from "@/lib/constants";
 
 const heroImages = [
   { src: "/images/vineyard/vinograd.jpeg", alt: "Vinogradi na otoku Hvaru" },
@@ -18,6 +18,8 @@ const INTERVAL = 5000;
 
 export function HeroImage() {
   const t = useTranslations("hero");
+  const locale = useLocale();
+  const bookingUrl = getBookingUrl(locale);
   const [current, setCurrent] = useState(0);
 
   const next = useCallback(() => {
@@ -63,7 +65,9 @@ export function HeroImage() {
           {t("subtitle")}
         </p>
         <a
-          href={`tel:${PHONE_NUMBER}`}
+          href={bookingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-colors shadow-lg"
         >
           {t("cta")}

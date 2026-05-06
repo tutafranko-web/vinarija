@@ -1,11 +1,13 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Wine } from "lucide-react";
-import { PHONE_NUMBER } from "@/lib/constants";
+import { getBookingUrl } from "@/lib/constants";
 
 export function CtaSection() {
   const t = useTranslations("cta");
+  const locale = useLocale();
+  const bookingUrl = getBookingUrl(locale);
 
   return (
     <section className="section-padding bg-primary text-primary-foreground">
@@ -18,7 +20,9 @@ export function CtaSection() {
           {t("subtitle")}
         </p>
         <a
-          href={`tel:${PHONE_NUMBER}`}
+          href={bookingUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-colors shadow-lg"
         >
           {t("button")}

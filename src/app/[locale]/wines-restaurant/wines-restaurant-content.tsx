@@ -5,8 +5,13 @@ import Image from "next/image";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ScrollReveal } from "@/components/shared/scroll-reveal";
 import { wines } from "@/lib/wine-data";
-import { PHONE_NUMBER, PHONE_DISPLAY, WORKING_HOURS } from "@/lib/constants";
-import { Phone, Clock } from "lucide-react";
+import {
+  PHONE_NUMBER,
+  PHONE_DISPLAY,
+  WORKING_HOURS,
+  getBookingUrl,
+} from "@/lib/constants";
+import { Phone, Clock, Calendar } from "lucide-react";
 
 export function WinesRestaurantContent() {
   const tw = useTranslations("wines");
@@ -164,13 +169,24 @@ export function WinesRestaurantContent() {
               </div>
             </div>
 
-            <a
-              href={`tel:${PHONE_NUMBER}`}
-              className="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-[hsl(345,60%,25%)] transition-colors"
-            >
-              <Phone className="h-4 w-4" />
-              {tr("reserveCta")} -- {PHONE_DISPLAY}
-            </a>
+            <div className="mt-6 flex flex-col sm:flex-row gap-3">
+              <a
+                href={getBookingUrl(locale)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-[hsl(345,60%,25%)] transition-colors"
+              >
+                <Calendar className="h-4 w-4" />
+                {tr("reserveCta")}
+              </a>
+              <a
+                href={`tel:${PHONE_NUMBER}`}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-primary text-primary font-semibold hover:bg-primary/5 transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                {PHONE_DISPLAY}
+              </a>
+            </div>
           </ScrollReveal>
         </div>
       </div>

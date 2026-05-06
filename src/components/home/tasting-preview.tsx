@@ -1,14 +1,16 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import { ScrollReveal } from "@/components/shared/scroll-reveal";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Wine, Check } from "lucide-react";
-import { PHONE_NUMBER } from "@/lib/constants";
+import { getBookingUrl } from "@/lib/constants";
 
 export function TastingPreview() {
   const t = useTranslations("tasting");
+  const locale = useLocale();
+  const bookingUrl = getBookingUrl(locale);
 
   return (
     <section className="section-padding bg-accent text-accent-foreground">
@@ -58,7 +60,9 @@ export function TastingPreview() {
             </div>
 
             <a
-              href={`tel:${PHONE_NUMBER}`}
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-semibold hover:bg-[hsl(40,60%,50%)] transition-colors"
             >
               {t("bookCta")}
