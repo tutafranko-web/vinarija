@@ -15,7 +15,7 @@ export async function generateMetadata({
     hr: {
       title: "Blog -- Luviji Vinarija | Vino, Hvar i Tradicionalna Kuhinja",
       description:
-        "Procitajte clanke o hvarskom vinu, tradicionalnoj dalmatinskoj kuhinji i otoku Hvaru. Plavac Mali, gregada, recepti -- sve sto trebate znati.",
+        "Pročitajte članke o hvarskom vinu, tradicionalnoj dalmatinskoj kuhinji i otoku Hvaru. Plavac Mali, gregada, recepti -- sve što trebate znati.",
     },
     en: {
       title: "Blog -- Luviji Winery | Wine, Hvar and Traditional Cuisine",
@@ -36,7 +36,7 @@ export default async function BlogPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: locale === "hr" ? "Pocetna" : "Home", path: "/" },
+          { name: locale === "hr" ? "Početna" : "Home", path: "/" },
           { name: "Blog", path: "/blog" },
         ]}
       />

@@ -20,7 +20,7 @@ export function StoryPreview() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
                 src="/images/cellar/podrum-2.jpeg"
-                alt="Vinski podrum Luviji u staroj obiteljskoj kuci"
+                alt="Vinski podrum Luviji u staroj obiteljskoj kući"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 quality={80}

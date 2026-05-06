@@ -1,8 +1,8 @@
 {
   "nav": {
-    "home": "Pocetna",
+    "home": "Početna",
     "about": "O nama",
-    "winesRestaurant": "Vina & Restoran",
+    "winesRestaurant": "Vina i Restoran",
     "gallery": "Galerija",
     "blog": "Blog",
     "contact": "Kontakt",
@@ -11,75 +11,75 @@
   "hero": {
     "title": "Luviji",
     "subtitle": "Obiteljska vinarija i restoran u srcu Hvara",
-    "cta": "Rezerviraj degustaciju"
+    "cta": "Rezerviraj odmah"
   },
   "story": {
-    "sectionTitle": "Nasa prica",
+    "sectionTitle": "Naša priča",
     "sectionSubtitle": "Pet generacija ljubavi prema vinu",
-    "text": "Jeste li znali da otok Hvar svjedoci 2400 godina vinogradarske povijesti? Sve je pocelo dolaskom antickih Grka i traje do danas. Obitelj Luviji vec pet generacija proizvodi vino na suncanim padinama Hvara. Proizvodimo 6 brandova kvalitetnih vina u nasoj staroj obiteljskoj kuci u samom centru grada Hvara. Postanite dio hvarske vinske price -- gdje povijest susrece tradiciju!",
-    "cta": "Saznaj vise o nama"
+    "text": "Jeste li znali da otok Hvar svjedoči 2.400 godina vinogradarske povijesti? Sve je počelo dolaskom antičkih Grka i traje do danas. Obitelj Luviji već pet generacija proizvodi vino na sunčanim padinama Hvara. Proizvodimo 6 brendova kvalitetnih vina u našoj staroj obiteljskoj kući u samom centru grada Hvara. Postanite dio hvarske vinske priče -- gdje povijest susreće tradiciju!",
+    "cta": "Saznajte više o nama"
   },
   "wines": {
-    "sectionTitle": "Nasa vina",
-    "sectionSubtitle": "6 brandova kvalitetnih vina -- autohtone hvarske sorte",
+    "sectionTitle": "Naša vina",
+    "sectionSubtitle": "6 brendova kvalitetnih vina od autohtonih hvarskih sorti",
     "viewAll": "Pogledaj sva vina i degustacije",
     "tastingNotes": "Degustacijske note",
     "grape": "Sorta"
   },
   "tasting": {
     "sectionTitle": "Degustacija vina",
-    "sectionSubtitle": "Dozivite nase okuse u autenticnom vinskom podrumu",
-    "description": "Nudimo degustacijske pakete u nasem jedinstvenoom vinskom podrumu u staroj obiteljskoj kuci. Uz svaki paket dobivate i domacu platu sa sirom, suhomesnatim proizvodima, domacim maslinovim uljem i kruhom.",
-    "package4": "4 vina + domaca plata",
-    "package5": "5 vina + domaca plata",
-    "package6": "6 vina + domaca plata s Prosekom",
-    "price": "od 25 EUR po osobi",
+    "sectionSubtitle": "Doživite naše okuse u autentičnom vinskom podrumu",
+    "description": "Nudimo degustacijske pakete u našem jedinstvenom vinskom podrumu u staroj obiteljskoj kući. Uz svaki paket dobivate i domaću pladnju sa sirom, suhomesnatim proizvodima, domaćim maslinovim uljem i kruhom.",
+    "package4": "4 vina + domaća pladnja",
+    "package5": "5 vina + domaća pladnja",
+    "package6": "6 vina + domaća pladnja s Prošekom",
+    "price": "od 25 € po osobi",
     "bookCta": "Rezerviraj degustaciju"
   },
   "restaurant": {
-    "sectionTitle": "Nas restoran",
+    "sectionTitle": "Naš restoran",
     "sectionSubtitle": "Rooftop restoran s pogledom na grad Hvar",
-    "text": "Osim vinarije, imamo i rooftop restoran u centru grada Hvara gdje posluzujemo tradicionalna dalmatinska jela uz nasa vlastita vina. Svjeza riba s rostilja, hobotnica ispod peke, gregada, domace tjestenine -- sve pripremljeno s najsvjezijim lokalnim namirnicama i ljubavlju prema tradiciji.",
-    "menuHighlights": "Preporuke kuce",
+    "text": "Osim vinarije, imamo i rooftop restoran u centru grada Hvara gdje poslužujemo tradicionalna dalmatinska jela uz naša vlastita vina. Svježa riba s roštilja, hobotnica ispod peke, gregada, domaće tjestenine -- sve pripremljeno s najsvježijim lokalnim namirnicama i ljubavlju prema tradiciji.",
+    "menuHighlights": "Preporuke kuće",
     "hours": "Radno vrijeme",
-    "reserveCta": "Rezervirajte vas stol"
+    "reserveCta": "Rezervirajte stol"
   },
   "testimonials": {
-    "sectionTitle": "Sto gosti kazu",
-    "sectionSubtitle": "#7 od 19 u kategoriji Hrana i Pice na Hvaru -- ocjena 4.9/5 na TripAdvisoru"
+    "sectionTitle": "Što gosti kažu",
+    "sectionSubtitle": "#7 od 19 u kategoriji Hrana i Piće na Hvaru -- ocjena 4.9/5 na TripAdvisoru"
   },
   "cta": {
-    "title": "Dozivite autenticni Hvar",
-    "subtitle": "Posjetite nasu degustacijsku sobu u staroj obiteljskoj kuci ili rezervirajte stol na nasem rooftop restoranu.",
+    "title": "Doživite autentični Hvar",
+    "subtitle": "Posjetite našu degustacijsku sobu u staroj obiteljskoj kući ili rezervirajte stol u našem rooftop restoranu.",
     "button": "Rezervirajte sada"
   },
   "about": {
     "sectionTitle": "O nama",
     "sectionSubtitle": "Pet generacija hvarske vinarske tradicije",
-    "story": "Otok Hvar svjedoci 2400 godina vinogradarske povijesti -- sve je pocelo dolaskom antickih Grka i traje do danas. Obitelj Luviji vec pet generacija proizvodi vino na ovom jedinstvenom otoku. Nasi vinogradi na suncem okupanim padinama Hvara radjaju grozdjem vrhunske kvalitete, a svaka boca naseg vina nosi pricu o strpljenju, posvecenosti i postovanju prema prirodi.\n\nNasa degustacijska soba smjestena je u staroj obiteljskoj kuci u samom centru grada Hvara. Uz to, imamo i rooftop restoran gdje gostima nudimo autenticna dalmatinska jela u paru s nasim vinima. Proizvodimo 6 brandova kvalitetnih vina -- od svjezih bijelih do snaznih crnih, ukljucujuci nagradjivani Plavac Mali koji je osvojio zlatnu medalju i titulu Best of Show Croatia na BIWC 2024.",
-    "mission": "Postanite dio hvarske vinske price -- gdje povijest susrece tradiciju!",
+    "story": "Otok Hvar svjedoči 2.400 godina vinogradarske povijesti -- sve je počelo dolaskom antičkih Grka i traje do danas. Obitelj Luviji već pet generacija proizvodi vino na ovom jedinstvenom otoku. Naši vinogradi na suncem okupanim padinama Hvara rađaju grožđem vrhunske kvalitete, a svaka boca našeg vina nosi priču o strpljenju, posvećenosti i poštovanju prema prirodi.\n\nNaša degustacijska soba smještena je u staroj obiteljskoj kući u samom centru grada Hvara. Uz to, imamo i rooftop restoran gdje gostima nudimo autentična dalmatinska jela u paru s našim vinima. Proizvodimo 6 brendova kvalitetnih vina -- od svježih bijelih do snažnih crnih, uključujući nagrađivani Plavac Mali koji je osvojio zlatnu medalju i titulu Best of Show Croatia na BIWC 2024.",
+    "mission": "Postanite dio hvarske vinske priče -- gdje povijest susreće tradiciju!",
     "values": {
       "tradition": {
         "title": "5 generacija",
-        "text": "Obiteljska vinarska tradicija koja se prenosi s koljena na koljeno vec pet generacija"
+        "text": "Obiteljska vinarska tradicija koja se prenosi s koljena na koljeno već pet generacija"
       },
       "quality": {
-        "title": "6 brandova vina",
-        "text": "Proizvodimo 6 kvalitetnih vina od autohtonih sorti -- Posip, Plavac Mali, Rose, Prosek i druge"
+        "title": "6 brendova vina",
+        "text": "Proizvodimo 6 kvalitetnih vina od autohtonih sorti -- Pošip, Plavac Mali, Rosé, Prošek i druge"
       },
       "hospitality": {
         "title": "Ocjena 4.9/5",
-        "text": "#7 od 19 u kategoriji Hrana i Pice na Hvaru -- gosti nas obozavaju"
+        "text": "#7 od 19 u kategoriji Hrana i Piće na Hvaru -- gosti nas obožavaju"
       },
       "passion": {
         "title": "BIWC 2024 Gold",
-        "text": "Nas Plavac Mali osvojio je zlatnu medalju i Best of Show Croatia na Balkans International Wine Competition"
+        "text": "Naš Plavac Mali osvojio je zlatnu medalju i Best of Show Croatia na Balkans International Wine Competition"
       }
     }
   },
   "gallery": {
     "sectionTitle": "Galerija",
-    "sectionSubtitle": "Pogledajte nase vinograde, vina, restoran i ljepote Hvara",
+    "sectionSubtitle": "Pogledajte naše vinograde, vina, restoran i ljepote Hvara",
     "all": "Sve",
     "vineyard": "Vinograd",
     "wineCategory": "Vina",
@@ -88,8 +88,8 @@
   },
   "blog": {
     "sectionTitle": "Blog",
-    "sectionSubtitle": "Novosti, price o vinu i recepti iz nase kuhinje",
-    "readMore": "Procitaj vise",
+    "sectionSubtitle": "Novosti, priče o vinu i recepti iz naše kuhinje",
+    "readMore": "Pročitaj više",
     "all": "Sve",
     "news": "Novosti",
     "wine": "Vino",
@@ -98,12 +98,12 @@
   "contact": {
     "sectionTitle": "Kontakt",
     "sectionSubtitle": "Javite nam se ili nas posjetite u centru Hvara",
-    "name": "Vase ime",
+    "name": "Vaše ime",
     "email": "Email adresa",
     "message": "Poruka",
-    "send": "Posalji poruku",
+    "send": "Pošalji poruku",
     "sending": "Slanje...",
-    "success": "Poruka je poslana! Javit cemo vam se uskoro.",
+    "success": "Poruka je poslana! Javit ćemo vam se uskoro.",
     "phone": "Telefon",
     "address": "Adresa",
     "workingHours": "Radno vrijeme",
@@ -112,10 +112,10 @@
   },
   "footer": {
     "company": "Luviji",
-    "tagline": "Obiteljska vinarija i restoran u srcu otoka Hvara. 5 generacija, 6 brandova kvalitetnih vina, 2400 godina vinogradarske tradicije.",
+    "tagline": "Obiteljska vinarija i restoran u srcu otoka Hvara. 5 generacija, 6 brendova kvalitetnih vina, 2.400 godina vinogradarske tradicije.",
     "quickLinks": "Brzi linkovi",
     "contactInfo": "Kontakt informacije",
     "followUs": "Pratite nas",
-    "rights": "Sva prava pridrzana."
+    "rights": "Sva prava pridržana."
   }
 }

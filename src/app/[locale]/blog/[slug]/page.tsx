@@ -68,7 +68,7 @@ export default async function BlogPostPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: isHr ? "Pocetna" : "Home", path: "/" },
+          { name: isHr ? "Početna" : "Home", path: "/" },
           { name: "Blog", path: "/blog" },
           { name: title, path: `/blog/${slug}` },
         ]}

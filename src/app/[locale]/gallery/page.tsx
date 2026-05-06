@@ -15,7 +15,7 @@ export async function generateMetadata({
     hr: {
       title: "Galerija -- Luviji Vinarija Hvar | Vinogradi, Vina, Restoran",
       description:
-        "Pogledajte galeriju Luviji vinarije: vinogradi na suncanim padinama Hvara, vinski podrum, rooftop restoran i tradicionalna dalmatinska jela.",
+        "Pogledajte galeriju Luviji vinarije: vinogradi na sunčanim padinama Hvara, vinski podrum, rooftop restoran i tradicionalna dalmatinska jela.",
     },
     en: {
       title: "Gallery -- Luviji Winery Hvar | Vineyards, Wines, Restaurant",
@@ -36,7 +36,7 @@ export default async function GalleryPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: locale === "hr" ? "Pocetna" : "Home", path: "/" },
+          { name: locale === "hr" ? "Početna" : "Home", path: "/" },
           { name: locale === "hr" ? "Galerija" : "Gallery", path: "/gallery" },
         ]}
       />

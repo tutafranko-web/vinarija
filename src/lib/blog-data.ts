@@ -19,7 +19,7 @@ export const blogPosts: BlogPost[] = [
     titleHr: "Plavac Mali -- ponos otoka Hvara",
     titleEn: "Plavac Mali -- the pride of Hvar island",
     excerptHr:
-      "Upoznajte najvazniju crnu sortu grozda na otoku Hvaru i saznajte zasto je Plavac Mali jedno od najcjenjenijih hrvatskih vina.",
+      "Upoznajte najvažniju crnu sortu grožđa na otoku Hvaru i saznajte zašto je Plavac Mali jedno od najcjenjenijih hrvatskih vina.",
     excerptEn:
       "Discover the most important red grape variety on Hvar island and learn why Plavac Mali is one of Croatia's most prized wines.",
     image:
@@ -29,41 +29,41 @@ export const blogPosts: BlogPost[] = [
     category: "wine",
     contentHr: `## Povijest Plavca Malog na Hvaru
 
-Plavac Mali jedna je od najstarijih i najvaznijih crnih sorti grozda u Hrvatskoj. Na otoku Hvaru uzgaja se vec stoljecima, a njegove korijene mozemo pratiti sve do antickih Grka koji su donijeli prvu vinovu lozu na ove otoke.
+Plavac Mali jedna je od najstarijih i najvažnijih crnih sorti grožđa u Hrvatskoj. Na otoku Hvaru uzgaja se već stoljećima, a njegove korijene možemo pratiti sve do antičkih Grka koji su donijeli prvu vinovu lozu na ove otoke.
 
-Znanstvena istrazivanja pokazala su da je Plavac Mali prirodni krizanac sorti Tribidrag (Crljenak) i Dobricic -- sto ga cini "djedovskim" rodakom poznatog californijskog Zinfandela.
+Znanstvena istraživanja pokazala su da je Plavac Mali prirodni križanac sorti Tribidrag (Crljenak) i Dobričić -- što ga čini "djedovskim" rođakom poznatog californijskog Zinfandela.
 
 ## Terroir Hvara
 
-Ono sto cini hvarski Plavac Mali posebnim je jedinstveni terroir otoka. Juzne padine Hvara, izlozene suncu i maestralu, pruzaju idealne uvjete za ovu sortu:
+Ono što čini hvarski Plavac Mali posebnim je jedinstveni terroir otoka. Južne padine Hvara, izložene suncu i maestralu, pružaju idealne uvjete za ovu sortu:
 
-- **Tlo**: Kameno, vapnenacko tlo s malo organske tvari prisiljava lozu da duboko pusta korijene
-- **Klima**: Preko 2700 suncanih sati godisnje -- najvise u Hrvatskoj
-- **Maestral**: Morski povjetarac koji hladi grozde i sprjecava bolesti
-- **Nagib**: Strme juzne padine osiguravaju maksimalnu izlozenost suncu
+- **Tlo**: Kameno, vapnenačko tlo s malo organske tvari prisiljava lozu da duboko pušta korijene
+- **Klima**: Preko 2700 sunčanih sati godišnje -- najviše u Hrvatskoj
+- **Maestral**: Morski povjetarac koji hladi grožđe i sprječava bolesti
+- **Nagib**: Strme južne padine osiguravaju maksimalnu izloženost suncu
 
 ## Kako prepoznati dobar Plavac Mali?
 
-Kvalitetan Plavac Mali prepoznaje se po dubokoj tamno rubinovoj boji, intenzivnom mirisu zrelog voca (visnja, sljiva), zacina (crni papar, karanfilic) i diskretnim tonovima hrasta ako je odlezao u barikama.
+Kvalitetan Plavac Mali prepoznaje se po dubokoj tamno rubinovoj boji, intenzivnom mirisu zrelog voća (višnja, šljiva), začina (crni papar, karanfilić) i diskretnim tonovima hrasta ako je odležao u barikama.
 
-Na nepcu je pun, s izrazenim ali mekkim taninima i dugim zavrsetkom. Najbolji primjerci mogu odlezavati 10 i vise godina, razvijajuci sve slozeniji profil aroma.
+Na nepcu je pun, s izraženim ali mekkim taninima i dugim završetkom. Najbolji primjerci mogu odležavati 10 i više godina, razvijajući sve složeniji profil aroma.
 
 ## Plavac Mali uz jelo
 
-Ovo vino je savrseni pratilac teze mediteranske hrane:
+Ovo vino je savršeni pratilac teže mediteranske hrane:
 
-- Janjetina s rostilja ili ispod peke
+- Janjetina s roštilja ili ispod peke
 - Pašticada (dalmatinski gulaš)
 - Tvrdi sirevi (Paški sir)
 - Tamniji ribji gulaši (brudet)
 - Sušena mesa (pršut, panceta)
 
-Servirajte ga na 16-18°C za optimalan uzivljaj.`,
+Servirajte ga na 16-18°C za optimalan užitak.`,
     contentEn: `## History of Plavac Mali on Hvar
 
 Plavac Mali is one of the oldest and most important red grape varieties in Croatia. It has been grown on the island of Hvar for centuries, and its roots can be traced back to the ancient Greeks who brought the first vines to these islands.
 
-Scientific research has shown that Plavac Mali is a natural cross between Tribidrag (Crljenak) and Dobricic varieties -- making it a "grandparent" relative of the famous Californian Zinfandel.
+Scientific research has shown that Plavac Mali is a natural cross between Tribidrag (Crljenak) and Dobričić varieties -- making it a "grandparent" relative of the famous Californian Zinfandel.
 
 ## The Terroir of Hvar
 
@@ -95,10 +95,10 @@ Serve at 16-18°C for optimal enjoyment.`,
   },
   {
     slug: "tradicionalna-hvarska-kuhinja",
-    titleHr: "Tradicionalna hvarska kuhinja -- okusi koji pricaju pricu",
+    titleHr: "Tradicionalna hvarska kuhinja -- okusi koji pričaju priču",
     titleEn: "Traditional Hvar cuisine -- flavors that tell a story",
     excerptHr:
-      "Otkrijte bogatstvo hvarske gastronomije -- od gregade i hobotnice ispod peke do svjezih salata i domacih deserata.",
+      "Otkrijte bogatstvo hvarske gastronomije -- od gregade i hobotnice ispod peke do svježih salata i domacih deserata.",
     excerptEn:
       "Discover the richness of Hvar's gastronomy -- from gregada and octopus under the bell to fresh salads and homemade desserts.",
     image:
@@ -106,29 +106,29 @@ Serve at 16-18°C for optimal enjoyment.`,
     date: "2026-02-20",
     readingTimeMin: 5,
     category: "recipes",
-    contentHr: `## Kuhinja Hvara -- mediteranska dusa
+    contentHr: `## Kuhinja Hvara -- mediteranska duša
 
-Hvarska kuhinja odraz je otockog zivota -- jednostavna ali bogata okusima, utemeljena na najsvjezijim sastojcima iz mora i s kopna. Stoljecima se razvijala pod utjecajem Grka, Rimljana, Venecijanaca i austrougarske kulture, stvarajuci jedinstveni spoj koji danas privlaci gurmanee iz cijelog svijeta.
+Hvarska kuhinja odraz je otočnog života -- jednostavna ali bogata okusima, utemeljena na najsvježijim sastojcima iz mora i s kopna. Stoljecima se razvijala pod utjecajem Grka, Rimljana, Venecijanaca i austrougarske kulture, stvarajući jedinstveni spoj koji danas privlači gurmane iz cijelog svijeta.
 
 ## Gregada -- kraljica hvarske kuhinje
 
-Gregada je tradicionalno hvarsko jelo od bijele ribe (obicno oslica ili ugotice) kuhane s krumpirom, kaprom, cesnjskon, maslinovim uljem i bijelim vinom. Kljuc je u jednostavnosti -- svjeza riba, minimalno zacina i sporo kuhanje na laganoj vatri.
+Gregada je tradicionalno hvarsko jelo od bijele ribe (obično oslica ili ugotice) kuhane s krumpirom, kaprom, češnjakom, maslinovim uljem i bijelim vinom. Ključ je u jednostavnosti -- svježa riba, minimalno začina i sporo kuhanje na laganoj vatri.
 
-U nasem restoranu, gregadu pripremamo tocno onako kako su je pripremale nase bake -- u terrakota posudi, s ribom ulovljenom istog jutra.
+U našem restoranu, gregadu pripremamo točno onako kako su je pripremale naše bake -- u terrakota posudi, s ribom ulovljenom istog jutra.
 
 ## Hobotnica ispod peke
 
-Jedno od najpoznatijih dalmatinskih jela. Hobotnica se stavlja pod zeljeznuu peku s krumpirom, lukom i zacinnskim biljem, a zatim se pece na zarr sat i pol do dva sata. Rezultat je nevjerojatno njezan meso hobotnice i kremasti krumpir natopljen svim sokovima.
+Jedno od najpoznatijih dalmatinskih jela. Hobotnica se stavlja pod željeznu peku s krumpirom, lukom i začinskim biljem, a zatim se peče na žaru sat i pol do dva sata. Rezultat je nevjerojatno nježan meso hobotnice i kremasti krumpir natopljen svim sokovima.
 
-## Svjeza riba s rostilja
+## Svjeza riba s roštilja
 
-Na Hvaru, riba se najcesce priprema na najjednostavniji moguc nacin -- na rostilju, s maslinovim uljem, limunom i malo soli. Brancin, orada, skusa, tune -- svaka riba ima svoj karakter i zasluzuje postovanje u pripremi.
+Na Hvaru, riba se najčešće priprema na najjednostavniji moguc nacin -- na rostilju, s maslinovim uljem, limunom i malo soli. Brancin, orada, skusa, tune -- svaka riba ima svoj karakter i zaslužuje poštovanje u pripremi.
 
 ## Preporuceni parovi vino-jelo
 
-- **Gregada** + Bogdanusa -- mineranost vina savrseno nadopunjuje njeznuu ribu
+- **Gregada** + Bogdanusa -- mineralnost vina savršeno nadopunjuje nježnu ribu
 - **Hobotnica ispod peke** + Plavac Mali -- snaga vina prati bogatstvo jela
-- **Svjeza riba s rostilja** + Rose -- osvjezavajuc i lagan, idealan za ljetne veceri
+- **Svjeza riba s roštilja** + Rose -- osvježavajuc i lagan, idealan za ljetne veceri
 - **Hrapaćuša** (hvarski kolac) + Prosek -- slatko uz slatko, tradicionalna kombinacija`,
     contentEn: `## The Cuisine of Hvar -- Mediterranean soul
 
@@ -161,7 +161,7 @@ On Hvar, fish is most often prepared in the simplest possible way -- on the gril
     titleHr: "Berba 2025 -- nova sezona, novi poceci",
     titleEn: "Harvest 2025 -- a new season, new beginnings",
     excerptHr:
-      "Osvrt na ovogodisnju berbu u nasim vinogradima -- sto nam je donijela sezona 2025 i kakva vina mozete ocekivati.",
+      "Osvrt na ovogodišnju berbu u našim vinogradima -- što nam je donijela sezona 2025 i kakva vina možete očekivati.",
     excerptEn:
       "A look back at this year's harvest in our vineyards -- what the 2025 season brought us and what wines you can expect.",
     image:
@@ -171,24 +171,24 @@ On Hvar, fish is most often prepared in the simplest possible way -- on the gril
     category: "news",
     contentHr: `## Sezona 2025
 
-Berba 2025 bila je jedna od najboljih u posljednjih nekoliko godina. Nakon blagog proljeca s dovoljno kise i dugog, toplog ljeta, grozde je dostiglo izvrsnu zrelost s optimalnim omjerom secera i kiselina.
+Berba 2025 bila je jedna od najboljih u posljednjih nekoliko godina. Nakon blagog proljeća s dovoljno kiše i dugog, toplog ljeta, grožđe je dostiglo izvrsnu zrelost s optimalnim omjerom šećera i kišelina.
 
-## Plavac Mali -- odlican godiste
+## Plavac Mali -- odličan godište
 
-Nasi Plavac Mali vinogradi na juznim padinama dali su izvanredne rezultate. Grozdje je ubrano u drugoj polovici rujna, u savrsenoj zrelosti. Ocijenujemo da ce ovaj godiste Plavca Mali biti jedan od najsnaznijih i najaromalicnijih do sada.
+Naši Plavac Mali vinogradi na južnim padinama dali su izvanredne rezultate. Grožđe je ubrano u drugoj polovici rujna, u savršenoj zrelosti. Procjenjujemo da će ovo godište Plavca Mali biti jedno od najsnažnijih i najaromatičnijih do sada.
 
-## Bogdanusa -- svjezina i elegancija
+## Bogdanusa -- svježina i elegancija
 
-Bogdanusa je ubrana nesto ranije, krajem kolovoza, dok je jos zadrzala svoju karakteristicnu svjezinu i kiselost. Ocekujemo posebno elegantno i miriano vino, savrseno za rane ljetne veceri.
+Bogdanusa je ubrana nesto ranije, krajem kolovoza, dok je jos zadrzala svoju karakteristicnu svježinu i kišelost. Ocekujemo posebno elegantno i miriano vino, savršeno za rane ljetne veceri.
 
 ## Prosek -- strpljenje se isplati
 
-Za nas Prosek, odabrali smo najljepse grozdove koji su se susili na suncu do sredine listopada. Ovaj dug proces susenja koncentrira secere i arome, stvarajuci osnovu za bogato desertno vino koje ce dozrijevati sljedecih godinu dana.
+Za naš Prošek, odabrali smo najljepše grozdove koji su se sušili na suncu do sredine listopada. Ovaj dug proces sušenja koncentrira šećere i arome, stvarajući osnovu za bogato desertno vino koje će dozrijevati sljedećih godinu dana.
 
-## Kada ocekivati nova vina?
+## Kada očekivati nova vina?
 
-- **Bogdanusa 2025**: Dostupna od proljeca 2026
-- **Rose 2025**: Dostupno od proljeca 2026
+- **Bogdanusa 2025**: Dostupna od proljeća 2026
+- **Rose 2025**: Dostupno od proljeća 2026
 - **Plavac Mali 2025**: Potrebno minimalno 12 mjeseci u bariku -- ocekujte krajem 2026
 - **Prosek 2025**: Minimalno 18 mjeseci dozrijevanja -- dostupan 2027`,
     contentEn: `## Season 2025
@@ -217,10 +217,10 @@ For our Prosek, we selected the finest grape clusters that dried in the sun unti
   },
   {
     slug: "5-razloga-za-posjetiti-hvar",
-    titleHr: "5 razloga zasto morate posjetiti Hvar",
+    titleHr: "5 razloga zašto morate posjetiti Hvar",
     titleEn: "5 reasons why you must visit Hvar",
     excerptHr:
-      "Od kristalno cistog mora i suncanih vinograda do bogate gastronomije -- evo zasto je Hvar destinacija koju morate dozivjeti.",
+      "Od kristalno cistog mora i sunčanih vinograda do bogate gastronomije -- evo zašto je Hvar destinacija koju morate doživjeti.",
     excerptEn:
       "From crystal-clear sea and sunny vineyards to rich gastronomy -- here's why Hvar is a destination you must experience.",
     image:
@@ -230,35 +230,35 @@ For our Prosek, we selected the finest grape clusters that dried in the sun unti
     category: "news",
     contentHr: `## 1. Najsuncaniji hrvatski otok
 
-Hvar se ponosi s preko 2700 suncanikh sati godisnje, sto ga cini najsuncanijim mjestom u cijeloj Hrvatskoj. Blaga mediteranska klima znaci da su ljeta topla i suha, a zime blage -- savrseno za posjet gotovo u bilo koje doba godine.
+Hvar se ponosi s preko 2700 suncanikh sati godišnje, što ga čini najsunčanijim mjestom u cijeloj Hrvatskoj. Blaga mediteranska klima znaci da su ljeta topla i suha, a zime blage -- savršeno za posjet gotovo u bilo koje doba godine.
 
 ## 2. Bogata vinarska tradicija
 
-Hvar ima jednu od najstarijih vinarskih tradicija u Europi, koja seze vise od 2400 godina unazad do antickih Grka. Autohtone sorte poput Plavca Malog i Bogdanuse rastu samo ovdje, a degustacija vina u lokalnim vinarijama nezaobilazan je dio hvarskog iskustva.
+Hvar ima jednu od najstarijih vinarskih tradicija u Europi, koja seže više od 2.400 godina unazad do antičkih Grka. Autohtone sorte poput Plavca Malog i Bogdanuše rastu samo ovdje, a degustacija vina u lokalnim vinarijama nezaobilazan je dio hvarskog iskustva.
 
-Posjetite nas u vinariji Luviji i kušajte vina koja pricaju pricu o ovom otoku.
+Posjetite nas u vinariji Luviji i kušajte vina koja pričaju priču o ovom otoku.
 
 ## 3. Izvanredna gastronomija
 
-Od svjeze ribe i morskih plodova do jela pripremljenih pod pekom, hvarska kuhinja odusevljava sve koji je probaju. Koristeci najsvjezije lokalne namirnice -- maslinovo ulje, kapre, lavandu i zacinsko bilje -- lokalni restorani nude autenticno mediteransko iskustvo.
+Od svjeze ribe i morskih plodova do jela pripremljenih pod pekom, hvarska kuhinja odusevljava sve koji je probaju. Koristeci najsvježije lokalne namirnice -- maslinovo ulje, kapre, lavandu i zacinsko bilje -- lokalni restorani nude autenticno mediteransko iskustvo.
 
 ## 4. Nevjerojatna priroda
 
 Hvar nudi raznolikost krajolika koja oduzima dah:
 
-- **Starogradsko polje**: UNESCO zaticena ravnica -- najstarije kontinuirano obradivano polje u Europi
+- **Starogradsko polje**: UNESCO zaštićena ravnica -- najstarije kontinuirano obrađivano polje u Europi
 - **Pakleni otoci**: Arhipelag s kristalno cistim morem i skrivenim uvalama
-- **Lavandina polja**: Sredisnji dio otoka cvate ljubicastim poljanama u lipnju i srpnju
+- **Lavandina polja**: Sredisnji dio otoka cvate ljubičastim poljanama u lipnju i srpnju
 - **Sume borova i makije**: Mirisan mediteranski krajoliz za setnje i planinarenje
 
 ## 5. Povijesna bastina
 
-Grad Hvar ima bogatu povijest koja seze tisucama godina:
+Grad Hvar ima bogatu povijest koja seze tisućama godina:
 
 - **Hvarska katedrala Sv. Stjepana**: Renesansna katedrala s prekrasnim trgom
 - **Fortica (Spanjola)**: Tvrdava iznad grada s panoramskim pogledom
-- **Hvarsko kazaliste**: Jedno od najstarijih javnih kazalista u Europi (1612.)
-- **Stari Grad**: Anticko naselje s grckim korijenima i UNESCO zastitom`,
+- **Hvarsko kazalište**: Jedno od najstarijih javnih kazalista u Europi (1612.)
+- **Stari Grad**: Antičko naselje s grčkim korijenima i UNESCO zastitom`,
     contentEn: `## 1. Croatia's Sunniest Island
 
 Hvar boasts over 2,700 hours of sunshine per year, making it the sunniest place in all of Croatia. The mild Mediterranean climate means summers are warm and dry, while winters are mild -- perfect for a visit at almost any time of year.

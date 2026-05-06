@@ -15,12 +15,12 @@ export async function generateMetadata({
     hr: {
       title: "Kontakt -- Luviji Vinarija Hvar | Rezerviraj Degustaciju",
       description:
-        "Kontaktirajte Luviji vinariju u Hvaru. Telefon: 091 519 8444, Email: info@luviji.hr. Stara obiteljska kuca u centru grada Hvara.",
+        "Kontaktirajte Luviji vinariju u Hvaru. Telefon: 091 519 8444, Email: luviji.hvar@gmail.com. Stara obiteljska kuća u centru grada Hvara.",
     },
     en: {
       title: "Contact -- Luviji Winery Hvar | Book a Tasting",
       description:
-        "Contact Luviji winery in Hvar. Phone: +385 91 519 8444, Email: info@luviji.hr. Old family house in the center of Hvar town.",
+        "Contact Luviji winery in Hvar. Phone: +385 91 519 8444, Email: luviji.hvar@gmail.com. Old family house in the center of Hvar town.",
     },
   });
 }
@@ -36,7 +36,7 @@ export default async function ContactPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: locale === "hr" ? "Pocetna" : "Home", path: "/" },
+          { name: locale === "hr" ? "Početna" : "Home", path: "/" },
           { name: locale === "hr" ? "Kontakt" : "Contact", path: "/contact" },
         ]}
       />

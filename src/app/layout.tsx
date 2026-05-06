@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Luviji",
   },
   description:
-    "Obiteljska vinarija i rooftop restoran u srcu Hvara. 5 generacija tradicije, 6 brandova vina (Plavac Mali BIWC 2024 Gold), degustacije od 25€. Ocjena 4.9/5 -- TripAdvisor.",
+    "Obiteljska vinarija i rooftop restoran u srcu Hvara. 5 generacija tradicije, 6 brendova vina (Plavac Mali BIWC 2024 Gold), degustacije od 25 €. Ocjena 4.9/5 -- TripAdvisor.",
   metadataBase: new URL(SITE_URL),
   manifest: "/manifest.json",
   applicationName: "Luviji",

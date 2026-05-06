@@ -145,7 +145,7 @@ export function BlogPostContent() {
       <div className="pt-24 pb-16">
         <div className="container-custom max-w-3xl text-center">
           <h1 className="text-2xl font-bold text-foreground mb-4 font-heading">
-            {locale === "hr" ? "Clanak nije pronadjen" : "Article Not Found"}
+            {locale === "hr" ? "Članak nije pronađen" : "Article Not Found"}
           </h1>
           <Link
             href="/blog"
@@ -218,7 +218,7 @@ export function BlogPostContent() {
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Clock className="h-4 w-4" />
-                {post.readingTimeMin} min {locale === "hr" ? "citanja" : "read"}
+                {post.readingTimeMin} min {locale === "hr" ? "čitanja" : "read"}
               </span>
             </div>
           </div>
@@ -236,12 +236,12 @@ export function BlogPostContent() {
           <Wine className="h-10 w-10 text-white/30 mx-auto mb-4" />
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 font-heading">
             {locale === "hr"
-              ? "Dozivite nase okuse uzivo"
+              ? "Doživite naše okuse uživo"
               : "Experience Our Flavors in Person"}
           </h2>
           <p className="text-white/80 mb-6 max-w-md mx-auto">
             {locale === "hr"
-              ? "Posjetite nas u centru Hvara za degustaciju vina ili veceru u nasem restoranu."
+              ? "Posjetite nas u centru Hvara za degustaciju vina ili večeru u našem rooftop restoranu."
               : "Visit us in the center of Hvar for a wine tasting or dinner in our restaurant."}
           </p>
           <a
@@ -260,7 +260,7 @@ export function BlogPostContent() {
       {relatedPosts.length > 0 && (
         <div className="container-custom mt-16">
           <h2 className="text-2xl font-bold text-foreground mb-6 text-center font-heading">
-            {locale === "hr" ? "Povezani clanci" : "Related Articles"}
+            {locale === "hr" ? "Povezani članci" : "Related Articles"}
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {relatedPosts.map((related, i) => (

@@ -100,7 +100,7 @@ export function OrganizationJsonLd() {
       longitude: 16.4411,
     },
     servesCuisine: ["Croatian", "Dalmatian", "Mediterranean"],
-    priceRange: "$$",
+    pričeRange: "$$",
     paymentAccepted: ["Cash", "Credit Card"],
     currenciesAccepted: "EUR",
     openingHoursSpecification: [
@@ -145,20 +145,20 @@ export function OrganizationJsonLd() {
         "@type": "Offer",
         name: "Wine Tasting -- 4 Wines + Platter",
         description: "4 wines tasting with homemade cheese & meat platter",
-        price: "25",
-        priceCurrency: "EUR",
+        priče: "25",
+        pričeCurrency: "EUR",
       },
       {
         "@type": "Offer",
         name: "Wine Tasting -- 5 Wines + Platter",
-        price: "30",
-        priceCurrency: "EUR",
+        priče: "30",
+        pričeCurrency: "EUR",
       },
       {
         "@type": "Offer",
         name: "Wine Tasting -- 6 Wines + Platter (with Prosek)",
-        price: "35",
-        priceCurrency: "EUR",
+        priče: "35",
+        pričeCurrency: "EUR",
       },
     ],
     sameAs: [
@@ -317,44 +317,44 @@ export function ProductsJsonLd({ locale }: { locale: string }) {
 const FAQ_DATA = {
   hr: [
     {
-      q: "Sto je Luviji?",
-      a: "Luviji je obiteljska vinarija i rooftop restoran u centru grada Hvara. Vec 5 generacija proizvodimo 6 brandova kvalitetnih vina od autohtonih hvarskih sorti.",
+      q: "Što je Luviji?",
+      a: "Luviji je obiteljska vinarija i rooftop restoran u centru grada Hvara. Već 5 generacija proizvodimo 6 brendova kvalitetnih vina od autohtonih hvarskih sorti.",
     },
     {
       q: "Gdje se nalazi vinarija Luviji?",
-      a: "Luviji vinarija nalazi se u staroj obiteljskoj kuci u samom centru grada Hvara, otok Hvar, Hrvatska. Postcode: 21450.",
+      a: "Vinarija Luviji nalazi se u staroj obiteljskoj kući u samom centru grada Hvara, otok Hvar, Hrvatska. Poštanski broj: 21450.",
     },
     {
-      q: "Koliko kosta degustacija vina?",
-      a: "Degustacijski paketi pocinju od 25€ po osobi za 4 vina + domaca plata sa sirom, suhomesnatim proizvodima, maslinovim uljem i kruhom. Imamo i pakete od 5 i 6 vina.",
+      q: "Koliko košta degustacija vina?",
+      a: "Degustacijski paketi počinju od 25 € po osobi za 4 vina + domaća pladnja sa sirom, suhomesnatim proizvodima, maslinovim uljem i kruhom. Imamo i pakete od 5 i 6 vina.",
     },
     {
       q: "Koja vina proizvodite?",
-      a: "Proizvodimo 6 brandova: Plavac Mali (BIWC 2024 Gold), Divjok, Posip, Bogdanusa, Rose i Prosek. Sve vrste su od autohtonih hvarskih sorti.",
+      a: "Proizvodimo 6 brendova: Plavac Mali (BIWC 2024 Gold), Divjok, Pošip, Bogdanuša, Rosé i Prošek. Sva su od autohtonih hvarskih sorti.",
     },
     {
-      q: "Sto je BIWC 2024 nagrada?",
-      a: "BIWC (Balkans International Wine Competition) je medjunarodno natjecanje vina. Nas Plavac Mali osvojio je zlatnu medalju i titulu Best of Show Croatia 2024.",
+      q: "Što je BIWC 2024 nagrada?",
+      a: "BIWC (Balkans International Wine Competition) je međunarodno natjecanje vina. Naš Plavac Mali osvojio je zlatnu medalju i titulu Best of Show Croatia 2024.",
     },
     {
-      q: "Kako rezervirati degustaciju?",
-      a: "Nazovite nas na 091 519 8444 ili posaljite email na info@luviji.hr. Mozete i posjetiti nasu stranicu Kontakt za vise informacija.",
+      q: "Kako rezervirati stol ili degustaciju?",
+      a: "Najjednostavnije online preko BookMeATable: bookmeatable.com/restaurants/konoba-luviji-rooftop-135. Možete nas i nazvati na 091 519 8444 ili poslati email na luviji.hvar@gmail.com.",
     },
     {
       q: "Imate li restoran?",
-      a: "Da, imamo rooftop restoran u centru Hvara s pogledom na grad. Posluzujemo tradicionalna dalmatinska jela: gregadu, hobotnicu ispod peke, svjezu ribu s rostilja i nasa vlastita vina.",
+      a: "Da, imamo rooftop restoran u centru Hvara s pogledom na grad. Poslužujemo tradicionalna dalmatinska jela: gregadu, hobotnicu ispod peke, svježu ribu s roštilja i naša vlastita vina.",
     },
     {
       q: "Mogu li grupe rezervirati privatne degustacije?",
-      a: "Da, organiziramo privatne degustacije za grupe. Kontaktirajte nas za posebne aranzmane i cijene.",
+      a: "Da, organiziramo privatne degustacije za grupe. Kontaktirajte nas za posebne aranžmane i cijene.",
     },
     {
-      q: "Sto je Plavac Mali?",
-      a: "Plavac Mali je autohtona dalmatinska crna sorta grozdja. Nas Plavac Mali osvojio je BIWC 2024 Gold nagradu. Punog je tijela, s aromama zrele visnje, sljive i crnog papra.",
+      q: "Što je Plavac Mali?",
+      a: "Plavac Mali je autohtona dalmatinska crna sorta grožđa. Naš Plavac Mali osvojio je BIWC 2024 Gold nagradu. Punog je tijela, s aromama zrele višnje, šljive i crnog papra.",
     },
     {
-      q: "Sto je Prosek?",
-      a: "Prosek je tradicionalno dalmatinsko desertno vino od prosusenog grozda. Bogato, slatko i aromaticno -- savrseno za zavrsetak vecere.",
+      q: "Što je Prošek?",
+      a: "Prošek je tradicionalno dalmatinsko desertno vino od prosušenog grožđa. Bogato, slatko i aromatično -- savršeno za završetak večere.",
     },
   ],
   en: [
@@ -379,8 +379,8 @@ const FAQ_DATA = {
       a: "BIWC (Balkans International Wine Competition) is an international wine competition. Our Plavac Mali won the Gold medal and Best of Show Croatia 2024 title.",
     },
     {
-      q: "How do I book a tasting?",
-      a: "Call us at +385 91 519 8444 or send an email to info@luviji.hr. You can also visit our Contact page for more information.",
+      q: "How do I book a table or tasting?",
+      a: "Easiest way is online via BookMeATable: bookmeatable.com/restaurants/konoba-luviji-rooftop-135. You can also call +385 91 519 8444 or email luviji.hvar@gmail.com.",
     },
     {
       q: "Do you have a restaurant?",

@@ -137,7 +137,7 @@ export function BlogContent() {
           <div className="text-center py-12">
             <p className="text-muted-foreground text-lg">
               {locale === "hr"
-                ? "Nema clanaka u ovoj kategoriji."
+                ? "Nema članaka u ovoj kategoriji."
                 : "No articles in this category."}
             </p>
           </div>

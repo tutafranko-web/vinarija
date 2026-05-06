@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import { LanguageSwitcher } from "./language-switcher";
 import { useLocale } from "next-intl";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getBookingUrl } from "@/lib/constants";
 
@@ -106,8 +106,9 @@ export function Navbar() {
             href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center px-4 py-2 text-sm font-semibold rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-colors shadow-sm"
+            className="btn-reserve hidden md:inline-flex items-center gap-1.5 px-5 py-2.5 text-sm font-bold uppercase tracking-wide rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-all shadow-md"
           >
+            <Calendar className="h-4 w-4" />
             {t("reserve")}
           </a>
 
@@ -153,8 +154,9 @@ export function Navbar() {
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 text-center px-4 py-3 rounded-full bg-secondary text-secondary-foreground font-semibold"
+              className="btn-reserve mt-2 inline-flex items-center justify-center gap-2 text-center px-4 py-3 rounded-full bg-secondary text-secondary-foreground font-bold uppercase tracking-wide"
             >
+              <Calendar className="h-4 w-4" />
               {t("reserve")}
             </a>
           </div>

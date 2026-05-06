@@ -16,10 +16,10 @@ export function FaqSection() {
     <section className="section-padding bg-background">
       <div className="container-custom max-w-3xl">
         <SectionHeading
-          title={locale === "hr" ? "Cesta pitanja" : "Frequently Asked Questions"}
+          title={locale === "hr" ? "Česta pitanja" : "Frequently Asked Questions"}
           subtitle={
             locale === "hr"
-              ? "Sve sto trebate znati o Luviji vinariji"
+              ? "Sve što trebate znati o Luviji vinariji"
               : "Everything you need to know about Luviji winery"
           }
         />

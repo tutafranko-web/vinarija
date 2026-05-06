@@ -17,7 +17,7 @@ interface GalleryImage {
 const galleryImages: GalleryImage[] = [
   {
     src: "/images/vineyard/vinograd.jpeg",
-    alt: "Vinograd na Hvaru - grozdovi Bogdanuse",
+    alt: "Vinograd na Hvaru - grozdovi Bogdanuše",
     category: "vineyard",
   },
   {

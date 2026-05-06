@@ -13,14 +13,14 @@ export async function generateMetadata({
     path: "/wines-restaurant",
     image: "/images/wine/boca-nagrada.jpeg",
     hr: {
-      title: "Vina i Restoran -- Luviji Hvar | Plavac Mali, Posip, Bogdanusa",
+      title: "Vina i Restoran -- Luviji Hvar | Plavac Mali, Pošip, Bogdanuša",
       description:
-        "6 brandova hvarskih vina (Plavac Mali BIWC 2024 Gold, Posip, Bogdanusa, Rose, Prosek, Divjok) i rooftop restoran s tradicionalnom dalmatinskom kuhinjom u centru Hvara.",
+        "6 brendova hvarskih vina (Plavac Mali BIWC 2024 Gold, Pošip, Bogdanuša, Rosé, Prošek, Divjok) i rooftop restoran s tradicionalnom dalmatinskom kuhinjom u centru Hvara.",
     },
     en: {
-      title: "Wines & Restaurant -- Luviji Hvar | Plavac Mali, Posip, Bogdanusa",
+      title: "Wines & Restaurant -- Luviji Hvar | Plavac Mali, Pošip, Bogdanuša",
       description:
-        "6 Hvar wine brands (Plavac Mali BIWC 2024 Gold, Posip, Bogdanusa, Rose, Prosek, Divjok) and a rooftop restaurant with traditional Dalmatian cuisine in Hvar town center.",
+        "6 Hvar wine brands (Plavac Mali BIWC 2024 Gold, Pošip, Bogdanuša, Rosé, Prošek, Divjok) and a rooftop restaurant with traditional Dalmatian cuisine in Hvar town center.",
     },
   });
 }
@@ -36,7 +36,7 @@ export default async function WinesRestaurantPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: locale === "hr" ? "Pocetna" : "Home", path: "/" },
+          { name: locale === "hr" ? "Početna" : "Home", path: "/" },
           {
             name: locale === "hr" ? "Vina i Restoran" : "Wines & Restaurant",
             path: "/wines-restaurant",

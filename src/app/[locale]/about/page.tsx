@@ -36,7 +36,7 @@ export default async function AboutPage({
       <BreadcrumbJsonLd
         locale={locale}
         items={[
-          { name: locale === "hr" ? "Pocetna" : "Home", path: "/" },
+          { name: locale === "hr" ? "Početna" : "Home", path: "/" },
           { name: locale === "hr" ? "O nama" : "About", path: "/about" },
         ]}
       />

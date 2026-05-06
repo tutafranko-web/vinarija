@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
+import { Calendar } from "lucide-react";
 import { getBookingUrl } from "@/lib/constants";
 
 const heroImages = [
@@ -68,8 +69,9 @@ export function HeroImage() {
           href={bookingUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-8 py-4 text-lg font-semibold rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-colors shadow-lg"
+          className="btn-reserve inline-flex items-center gap-2.5 px-10 py-5 text-xl font-bold uppercase tracking-wide rounded-full bg-secondary text-secondary-foreground hover:bg-[hsl(40,60%,50%)] transition-all shadow-2xl"
         >
+          <Calendar className="h-6 w-6" />
           {t("cta")}
         </a>
       </div>

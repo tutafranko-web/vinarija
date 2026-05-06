@@ -5,6 +5,7 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { ScrollToTop } from "@/components/shared/scroll-to-top";
+import { FloatingReserve } from "@/components/shared/floating-reserve";
 
 function SetHtmlLang({ locale }: { locale: string }) {
   return (
@@ -38,6 +39,7 @@ export default async function LocaleLayout({
       <main className="min-h-screen">{children}</main>
       <Footer />
       <ScrollToTop />
+      <FloatingReserve />
     </NextIntlClientProvider>
   );
 }
