@@ -125,10 +125,15 @@ export function GalleryContent() {
         {/* Image Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredImages.map((img, i) => (
-            <ScrollReveal key={`${img.src}-${activeCategory}`} delay={i * 0.05}>
+            <ScrollReveal
+              key={`${img.src}-${activeCategory}`}
+              delay={i * 0.05}
+              className="w-full"
+            >
               <button
+                type="button"
                 onClick={() => setLightboxImage(img.src)}
-                className="relative aspect-square rounded-xl overflow-hidden group cursor-pointer"
+                className="relative block w-full aspect-square rounded-xl overflow-hidden group cursor-pointer bg-muted"
               >
                 <Image
                   src={img.src}
@@ -136,7 +141,6 @@ export function GalleryContent() {
                   fill
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   quality={75}
-                  loading="lazy"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
