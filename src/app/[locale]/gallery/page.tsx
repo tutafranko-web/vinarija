@@ -3,6 +3,9 @@ import { buildMetadata } from "@/lib/seo";
 import { GalleryContent } from "./gallery-content";
 import { BreadcrumbJsonLd } from "@/components/shared/json-ld";
 
+export const revalidate = 0;
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {

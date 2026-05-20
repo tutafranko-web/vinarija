@@ -116,8 +116,14 @@ export function GalleryContent() {
           ))}
         </div>
 
-        {/* Bulletproof image grid - plain HTML img tags, explicit height fallback */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {/* Bulletproof image grid - inline grid styles + plain HTML img tags */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
+            gap: "16px",
+          }}
+        >
           {filteredImages.map((img, i) => (
             <div
               key={`${img.src}-${i}`}
