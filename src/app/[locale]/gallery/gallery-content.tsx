@@ -15,19 +15,31 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
+  // Vinogradi
   {
     src: "/images/vineyard/vinograd.jpeg",
-    alt: "Vinograd na Hvaru - grozdovi Bogdanuše",
+    alt: "Vinograd Luviji na Hvaru - grozdovi Pošipa",
     category: "vineyard",
+  },
+  // Vina
+  {
+    src: "/images/wine/boca-nagrada.jpeg",
+    alt: "Luviji Pošip - BIWC 2024 Gold, Best of Show Croatia",
+    category: "wine",
+  },
+  {
+    src: "/images/wine/divjok.jpeg",
+    alt: "Luviji Divjok - BIWC 2024 Silver medalja",
+    category: "wine",
+  },
+  {
+    src: "/images/wine/rosetta.jpeg",
+    alt: "Luviji RosEtta rosé - svježi roze od Plavca Malog",
+    category: "wine",
   },
   {
     src: "/images/wine/boca-hvar.jpeg",
     alt: "Luviji vino s pogledom na grad Hvar",
-    category: "wine",
-  },
-  {
-    src: "/images/wine/boca-nagrada.jpeg",
-    alt: "Luviji vino - BIWC 2024 Gold, Best of Show Croatia",
     category: "wine",
   },
   {
@@ -37,27 +49,29 @@ const galleryImages: GalleryImage[] = [
   },
   {
     src: "/images/cellar/podrum-2.jpeg",
-    alt: "Vinski podrum Luviji - degustacijska sala",
+    alt: "Vinski podrum Luviji - degustacijska sala s lusterom",
     category: "wine",
   },
+  // Restoran
   {
     src: "/images/restaurant/gregada.jpeg",
-    alt: "Gregada - tradicionalno hvarsko jelo",
+    alt: "Gregada - tradicionalno hvarsko jelo od svježe ribe",
     category: "restaurant",
   },
   {
     src: "/images/restaurant/terasa.jpeg",
-    alt: "Terasa restorana Luviji s pogledom na Hvar",
+    alt: "Rooftop terasa restorana Luviji s pogledom na Hvar",
     category: "restaurant",
   },
+  // Hvar (koristimo postojeće Luviji slike koje pokazuju Hvar)
   {
-    src: "https://images.unsplash.com/photo-1555990538-1e15c7c05428?w=800&h=600&fit=crop",
-    alt: "Grad Hvar iz zraka",
+    src: "/images/wine/boca-hvar.jpeg",
+    alt: "Pogled na grad Hvar - krovovi i katedrala",
     category: "hvar",
   },
   {
-    src: "https://images.unsplash.com/photo-1586500038924-5c7e78e85989?w=800&h=600&fit=crop",
-    alt: "Hvarska luka",
+    src: "/images/restaurant/terasa.jpeg",
+    alt: "Stari grad Hvar - rooftop pogled iz restorana",
     category: "hvar",
   },
 ];
@@ -146,8 +160,8 @@ export function GalleryContent() {
           </button>
           <div className="relative max-w-4xl max-h-[85vh] w-full h-full">
             <Image
-              src={lightboxImage.replace("w=800&h=600", "w=1600&h=1200")}
-              alt="Luviji galerija - uvecana slika"
+              src={lightboxImage}
+              alt="Luviji galerija - uvećana slika"
               fill
               sizes="100vw"
               quality={85}
