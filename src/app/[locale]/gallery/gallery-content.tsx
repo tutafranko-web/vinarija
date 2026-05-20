@@ -122,19 +122,29 @@ export function GalleryContent() {
             <div
               key={`${img.src}-${i}`}
               onClick={() => setLightboxImage(img.src)}
-              className="relative w-full overflow-hidden rounded-xl cursor-pointer bg-muted hover:shadow-xl transition-shadow"
-              style={{ minHeight: "200px", aspectRatio: "1 / 1" }}
+              className="relative overflow-hidden rounded-xl cursor-pointer hover:shadow-xl transition-shadow"
+              style={{
+                width: "100%",
+                minHeight: "220px",
+                aspectRatio: "1 / 1",
+                backgroundColor: "#7a1f33",
+              }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={img.src}
                 alt={img.alt}
-                loading={i < 4 ? "eager" : "lazy"}
                 decoding="async"
-                width={400}
-                height={400}
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                style={{ display: "block" }}
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+                className="transition-transform duration-500 hover:scale-105"
               />
             </div>
           ))}
