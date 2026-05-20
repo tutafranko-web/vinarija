@@ -125,8 +125,8 @@ export function GalleryContent() {
               className="relative overflow-hidden rounded-xl cursor-pointer hover:shadow-xl transition-shadow"
               style={{
                 width: "100%",
-                minHeight: "220px",
-                aspectRatio: "1 / 1",
+                paddingBottom: "100%",
+                height: 0,
                 backgroundColor: "#7a1f33",
               }}
             >
