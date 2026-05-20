@@ -15,12 +15,12 @@ export async function generateMetadata({
     hr: {
       title: "Kontakt -- Luviji Vinarija Hvar | Rezerviraj Degustaciju",
       description:
-        "Kontaktirajte Luviji vinariju u Hvaru. Telefon: 091 519 8444, Email: luviji.hvar@gmail.com. Stara obiteljska kuća u centru grada Hvara.",
+        "Kontaktirajte Luviji vinariju u Hvaru. Telefon: 091 519 8444, Email: luviji.hvar@gmail.com. Adresa: Jurja Novaka 6/1, 21450 Hvar. Radno vrijeme: 18:00-23:00.",
     },
     en: {
       title: "Contact -- Luviji Winery Hvar | Book a Tasting",
       description:
-        "Contact Luviji winery in Hvar. Phone: +385 91 519 8444, Email: luviji.hvar@gmail.com. Old family house in the center of Hvar town.",
+        "Contact Luviji winery in Hvar. Phone: +385 91 519 8444, Email: luviji.hvar@gmail.com. Address: Jurja Novaka 6/1, 21450 Hvar. Hours: 18:00-23:00.",
     },
   });
 }

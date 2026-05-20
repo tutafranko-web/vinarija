@@ -15,12 +15,12 @@ export async function generateMetadata({
     hr: {
       title: "O nama -- Pet Generacija Luviji Vinarije Hvar",
       description:
-        "5 generacija obiteljske tradicije, 2400 godina hvarske vinogradarske povijesti, BIWC 2024 Gold za Plavac Mali. Otkrijte priču Luviji vinarije iz Hvara.",
+        "5 generacija obiteljske tradicije, 2.400 godina hvarske vinogradarske povijesti, BIWC 2024 Gold + Best of Show Croatia za Pošip. Otkrijte priču Luviji vinarije iz Hvara.",
     },
     en: {
       title: "About Us -- Five Generations of Luviji Winery Hvar",
       description:
-        "5 generations of family tradition, 2,400 years of Hvar winemaking history, BIWC 2024 Gold for Plavac Mali. Discover the story of Luviji winery in Hvar.",
+        "5 generations of family tradition, 2,400 years of Hvar winemaking history, BIWC 2024 Gold + Best of Show Croatia for Pošip. Discover the story of Luviji winery in Hvar.",
     },
   });
 }

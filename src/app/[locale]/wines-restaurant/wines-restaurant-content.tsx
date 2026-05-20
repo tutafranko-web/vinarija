@@ -53,7 +53,7 @@ export function WinesRestaurantContent() {
                       loading="lazy"
                       className="object-cover"
                     />
-                    <div className="absolute top-3 left-3">
+                    <div className="absolute top-3 left-3 flex flex-col gap-1 items-start">
                       <span
                         className={`inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide text-white ${
                           wine.type === "red"
@@ -71,8 +71,19 @@ export function WinesRestaurantContent() {
                           ? locale === "hr"
                             ? "Bijelo"
                             : "White"
-                          : "Rose"}
+                          : "Rosé"}
                       </span>
+                      {wine.award && (
+                        <span
+                          className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide text-white shadow-md ${
+                            wine.award.toLowerCase().includes("silver")
+                              ? "bg-slate-400"
+                              : "bg-yellow-500"
+                          }`}
+                        >
+                          {wine.award}
+                        </span>
+                      )}
                     </div>
                   </div>
                   <div className="p-6">

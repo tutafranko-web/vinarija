@@ -49,7 +49,7 @@ export function OrganizationJsonLd() {
     name: "Luviji",
     alternateName: "Luviji Wine Tasting Room",
     description:
-      "Family winery and rooftop restaurant in the heart of Hvar, Croatia. 5 generations of winemaking tradition. 6 quality wine brands including BIWC 2024 Gold winner Plavac Mali. Wine tasting room in old family house in Hvar town center.",
+      "Family winery and rooftop restaurant in the heart of Hvar, Croatia. 5 generations of winemaking tradition. 6 quality wine brands including BIWC 2024 Gold winner Pošip (Best of Show Croatia) and Silver winner Divjok. Wine tasting room in old family house at Jurja Novaka 6/1, Hvar.",
     url: SITE_URL,
     logo: `${SITE_URL}/images/wine/boca-nagrada.jpeg`,
     image: [
@@ -81,14 +81,15 @@ export function OrganizationJsonLd() {
     foundingDate: "1900",
     slogan: "Where history meets tradition -- 5 generations of Hvar winemaking",
     award: [
-      "BIWC 2024 Gold Medal",
-      "BIWC 2024 Best of Show Croatia (Plavac Mali)",
+      "BIWC 2024 Gold Medal (Pošip)",
+      "BIWC 2024 Best of Show Croatia (Pošip)",
+      "BIWC 2024 Silver Medal (Divjok)",
       "TripAdvisor Travelers' Choice",
       "#7 of 19 Food & Drink in Hvar (TripAdvisor)",
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Centar grada Hvara",
+      streetAddress: "Jurja Novaka 6/1",
       addressLocality: "Hvar",
       postalCode: "21450",
       addressRegion: "Splitsko-dalmatinska zupanija",
@@ -115,7 +116,7 @@ export function OrganizationJsonLd() {
           "Saturday",
           "Sunday",
         ],
-        opens: "10:00",
+        opens: "18:00",
         closes: "23:00",
         validFrom: "2026-04-01",
         validThrough: "2026-10-31",
@@ -322,7 +323,7 @@ const FAQ_DATA = {
     },
     {
       q: "Gdje se nalazi vinarija Luviji?",
-      a: "Vinarija Luviji nalazi se u staroj obiteljskoj kući u samom centru grada Hvara, otok Hvar, Hrvatska. Poštanski broj: 21450.",
+      a: "Vinarija Luviji nalazi se u staroj obiteljskoj kući na adresi Jurja Novaka 6/1, 21450 Hvar, u samom centru grada Hvara.",
     },
     {
       q: "Koliko košta degustacija vina?",
@@ -330,11 +331,11 @@ const FAQ_DATA = {
     },
     {
       q: "Koja vina proizvodite?",
-      a: "Proizvodimo 6 brendova: Plavac Mali (BIWC 2024 Gold), Divjok, Pošip, Bogdanuša, Rosé i Prošek. Sva su od autohtonih hvarskih sorti.",
+      a: "Proizvodimo 6 brendova: Pošip (BIWC 2024 Gold + Best of Show Croatia), Divjok (BIWC 2024 Silver), Plavac Mali, Bogdanuša, RosEtta i Prošek. Sva su od autohtonih hvarskih sorti.",
     },
     {
       q: "Što je BIWC 2024 nagrada?",
-      a: "BIWC (Balkans International Wine Competition) je međunarodno natjecanje vina. Naš Plavac Mali osvojio je zlatnu medalju i titulu Best of Show Croatia 2024.",
+      a: "BIWC (Balkans International Wine Competition) je međunarodno natjecanje vina. Naš Pošip osvojio je zlatnu medalju i titulu Best of Show Croatia 2024, a Divjok srebrnu medalju.",
     },
     {
       q: "Kako rezervirati stol ili degustaciju?",
@@ -349,8 +350,8 @@ const FAQ_DATA = {
       a: "Da, organiziramo privatne degustacije za grupe. Kontaktirajte nas za posebne aranžmane i cijene.",
     },
     {
-      q: "Što je Plavac Mali?",
-      a: "Plavac Mali je autohtona dalmatinska crna sorta grožđa. Naš Plavac Mali osvojio je BIWC 2024 Gold nagradu. Punog je tijela, s aromama zrele višnje, šljive i crnog papra.",
+      q: "Što je Pošip?",
+      a: "Pošip je jedna od najcjenjenijih bijelih sorti grožđa u Hrvatskoj. Naš Pošip osvojio je BIWC 2024 zlatnu medalju i titulu Best of Show Croatia. Zlatnožute je boje, s aromama breskve, bijelog cvijeća i mediteranskog bilja.",
     },
     {
       q: "Što je Prošek?",
@@ -364,7 +365,7 @@ const FAQ_DATA = {
     },
     {
       q: "Where is Luviji winery located?",
-      a: "Luviji winery is located in an old family house in the very center of Hvar town, Hvar island, Croatia. Postcode: 21450.",
+      a: "Luviji winery is located in an old family house at Jurja Novaka 6/1, 21450 Hvar, in the very center of Hvar town.",
     },
     {
       q: "How much does wine tasting cost?",
@@ -372,11 +373,11 @@ const FAQ_DATA = {
     },
     {
       q: "What wines do you produce?",
-      a: "We produce 6 brands: Plavac Mali (BIWC 2024 Gold), Divjok, Posip, Bogdanusa, Rose and Prosek. All from indigenous Hvar grape varieties.",
+      a: "We produce 6 brands: Pošip (BIWC 2024 Gold + Best of Show Croatia), Divjok (BIWC 2024 Silver), Plavac Mali, Bogdanuša, RosEtta and Prošek. All from indigenous Hvar grape varieties.",
     },
     {
       q: "What is the BIWC 2024 award?",
-      a: "BIWC (Balkans International Wine Competition) is an international wine competition. Our Plavac Mali won the Gold medal and Best of Show Croatia 2024 title.",
+      a: "BIWC (Balkans International Wine Competition) is an international wine competition. Our Pošip won the Gold medal and Best of Show Croatia 2024 title, while Divjok won the Silver medal.",
     },
     {
       q: "How do I book a table or tasting?",
@@ -391,8 +392,8 @@ const FAQ_DATA = {
       a: "Yes, we organize private tastings for groups. Contact us for special arrangements and pricing.",
     },
     {
-      q: "What is Plavac Mali?",
-      a: "Plavac Mali is an indigenous Dalmatian red grape variety. Our Plavac Mali won the BIWC 2024 Gold award. It is full-bodied, with aromas of ripe cherry, plum and black pepper.",
+      q: "What is Pošip?",
+      a: "Pošip is one of Croatia's most prized white grape varieties. Our Pošip won the BIWC 2024 Gold medal and Best of Show Croatia title. Golden yellow color with aromas of peach, white flowers and Mediterranean herbs.",
     },
     {
       q: "What is Prosek?",

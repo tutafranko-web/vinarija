@@ -14,19 +14,19 @@ export interface Wine {
 
 export const wines: Wine[] = [
   {
-    id: "plavac-mali",
-    nameHr: "Plavac Mali",
-    nameEn: "Plavac Mali",
-    grape: "Plavac Mali",
-    type: "red",
+    id: "posip",
+    nameHr: "Pošip",
+    nameEn: "Pošip",
+    grape: "Pošip",
+    type: "white",
     descriptionHr:
-      "Naš ponos i nagrađivano vino -- snažno crno vino od autohtone dalmatinske sorte Plavac Mali, uzgojene na južnim padinama Hvara. Osvojio zlatnu medalju i titulu Best of Show Croatia na BIWC 2024.",
+      "Naš ponos i najnagrađivanije vino -- elegantno bijelo vino od sorte Pošip, uzgojeno na sunčanim padinama Hvara. Osvojilo zlatnu medalju i titulu Best of Show Croatia na BIWC 2024.",
     descriptionEn:
-      "Our pride and award-winning wine -- a powerful red from the indigenous Dalmatian Plavac Mali grape, grown on the southern slopes of Hvar. Won the Gold medal and Best of Show Croatia title at BIWC 2024.",
+      "Our pride and most awarded wine -- an elegant white from the Pošip grape, grown on the sunny slopes of Hvar. Won the Gold medal and Best of Show Croatia title at BIWC 2024.",
     tastingNotesHr:
-      "Tamno rubinaste boje s aromama zrele višnje, šljive, crnog papra i diskretnim tonovima vanilije. Punog tijela, s mekim taninima i dugim završetkom.",
+      "Zlatnožute boje s aromama zrele breskve, bijelog cvijeća i mediteranskog bilja. Bogato i zaokruženo, s ugodnom mineralnošću i dugim završetkom.",
     tastingNotesEn:
-      "Deep ruby color with aromas of ripe cherry, plum, black pepper and subtle vanilla notes. Full-bodied, with soft tannins and a long finish.",
+      "Golden yellow color with aromas of ripe peach, white flowers and Mediterranean herbs. Rich and well-rounded, with pleasant minerality and a long finish.",
     image: "/images/wine/boca-nagrada.jpeg",
     award: "BIWC 2024 Gold - Best of Show Croatia",
   },
@@ -37,29 +37,30 @@ export const wines: Wine[] = [
     grape: "Plavac Mali",
     type: "red",
     descriptionHr:
-      "Divjok -- 'divljak' na hvarskom dijalektu. Karakterno crno vino koje odražava snagu i divljinu hvarskog terroira. Omiljeno među našim gostima.",
+      "Divjok -- 'divljak' na hvarskom dijalektu. Karakterno crno vino koje odražava snagu i divljinu hvarskog terroira. Nagrađeno srebrnom medaljom na BIWC 2024.",
     descriptionEn:
-      "Divjok -- meaning 'wild one' in the Hvar dialect. A characterful red wine reflecting the strength and wildness of Hvar's terroir. A favorite among our guests.",
+      "Divjok -- meaning 'wild one' in the Hvar dialect. A characterful red wine reflecting the strength and wildness of Hvar's terroir. Awarded the Silver medal at BIWC 2024.",
     tastingNotesHr:
       "Duboke tamne boje s intenzivnim aromama šumskog voća, začina i mediteranskog bilja. Snažno i kompleksno, s izraženim karakterom.",
     tastingNotesEn:
       "Deep dark color with intense aromas of forest fruit, spices and Mediterranean herbs. Powerful and complex, with pronounced character.",
-    image: "/images/wine/boca-nagrada.jpeg",
+    image: "/images/wine/boca-hvar.jpeg",
+    award: "BIWC 2024 Silver",
   },
   {
-    id: "posip",
-    nameHr: "Pošip",
-    nameEn: "Posip",
-    grape: "Pošip",
-    type: "white",
+    id: "plavac-mali",
+    nameHr: "Plavac Mali",
+    nameEn: "Plavac Mali",
+    grape: "Plavac Mali",
+    type: "red",
     descriptionHr:
-      "Elegantno bijelo vino od sorte Pošip -- jedne od najcjenjenijih bijelih sorti u Hrvatskoj. Osvježavajuće i harmonično, savršeno za ljetne dane uz more.",
+      "Snažno crno vino od autohtone dalmatinske sorte Plavac Mali, uzgojene na južnim padinama Hvara. Dozrijeva u hrastovim bačvama, dajući mu bogat karakter i dubok okus.",
     descriptionEn:
-      "An elegant white wine from the Posip grape -- one of Croatia's most prized white varieties. Refreshing and harmonious, perfect for summer days by the sea.",
+      "A powerful red wine from the indigenous Dalmatian Plavac Mali grape, grown on the southern slopes of Hvar. Aged in oak barrels, giving it a rich character and deep flavor.",
     tastingNotesHr:
-      "Zlatnožute boje s aromama zrele breskve, bijelog cvijeća i mediteranskog bilja. Bogato i zaokruženo, s ugodnom mineralnošću.",
+      "Tamno rubinaste boje s aromama zrele višnje, šljive, crnog papra i diskretnim tonovima vanilije. Punog tijela, s mekim taninima i dugim završetkom.",
     tastingNotesEn:
-      "Golden yellow color with aromas of ripe peach, white flowers and Mediterranean herbs. Rich and well-rounded, with pleasant minerality.",
+      "Deep ruby color with aromas of ripe cherry, plum, black pepper and subtle vanilla notes. Full-bodied, with soft tannins and a long finish.",
     image: "/images/wine/boca-hvar.jpeg",
   },
   {
@@ -79,15 +80,15 @@ export const wines: Wine[] = [
     image: "/images/wine/boca-hvar.jpeg",
   },
   {
-    id: "rose",
-    nameHr: "Rosé",
-    nameEn: "Rosé",
+    id: "rosetta",
+    nameHr: "RosEtta",
+    nameEn: "RosEtta",
     grape: "Plavac Mali",
     type: "rose",
     descriptionHr:
-      "Svježi rosé od Plavca Malog -- idealan pratilac mediteranske kuhinje. Kratkim kontaktom s kožicom dobiva prekrasnu ružičastu boju i voćni karakter.",
+      "RosEtta -- svježi rosé od Plavca Malog, idealan pratilac mediteranske kuhinje. Kratkim kontaktom s kožicom dobiva prekrasnu ružičastu boju i voćni karakter.",
     descriptionEn:
-      "A fresh rosé from Plavac Mali -- the ideal companion to Mediterranean cuisine. Brief skin contact gives it a beautiful pink color and fruity character.",
+      "RosEtta -- a fresh rosé from Plavac Mali, the ideal companion to Mediterranean cuisine. Brief skin contact gives it a beautiful pink color and fruity character.",
     tastingNotesHr:
       "Nježno ružičaste boje s aromama jagode, maline i latica ruže. Lagano i osvježavajuće, s ugodnom kiselinom i voćnim završetkom.",
     tastingNotesEn:

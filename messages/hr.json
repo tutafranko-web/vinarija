@@ -56,7 +56,7 @@
   "about": {
     "sectionTitle": "O nama",
     "sectionSubtitle": "Pet generacija hvarske vinarske tradicije",
-    "story": "Otok Hvar svjedoči 2.400 godina vinogradarske povijesti -- sve je počelo dolaskom antičkih Grka i traje do danas. Obitelj Luviji već pet generacija proizvodi vino na ovom jedinstvenom otoku. Naši vinogradi na suncem okupanim padinama Hvara rađaju grožđem vrhunske kvalitete, a svaka boca našeg vina nosi priču o strpljenju, posvećenosti i poštovanju prema prirodi.\n\nNaša degustacijska soba smještena je u staroj obiteljskoj kući u samom centru grada Hvara. Uz to, imamo i rooftop restoran gdje gostima nudimo autentična dalmatinska jela u paru s našim vinima. Proizvodimo 6 brendova kvalitetnih vina -- od svježih bijelih do snažnih crnih, uključujući nagrađivani Plavac Mali koji je osvojio zlatnu medalju i titulu Best of Show Croatia na BIWC 2024.",
+    "story": "Otok Hvar svjedoči 2.400 godina vinogradarske povijesti -- sve je počelo dolaskom antičkih Grka i traje do danas. Obitelj Luviji već pet generacija proizvodi vino na ovom jedinstvenom otoku. Naši vinogradi na suncem okupanim padinama Hvara rađaju grožđem vrhunske kvalitete, a svaka boca našeg vina nosi priču o strpljenju, posvećenosti i poštovanju prema prirodi.\n\nNaša degustacijska soba smještena je u staroj obiteljskoj kući na adresi Jurja Novaka 6/1, u samom centru grada Hvara. Uz to, imamo i rooftop restoran gdje gostima nudimo autentična dalmatinska jela u paru s našim vinima. Proizvodimo 6 brendova kvalitetnih vina -- od svježih bijelih do snažnih crnih, uključujući nagrađivani Pošip koji je osvojio zlatnu medalju i titulu Best of Show Croatia na BIWC 2024, te Divjok sa srebrnom medaljom.",
     "mission": "Postanite dio hvarske vinske priče -- gdje povijest susreće tradiciju!",
     "values": {
       "tradition": {
@@ -65,7 +65,7 @@
       },
       "quality": {
         "title": "6 brendova vina",
-        "text": "Proizvodimo 6 kvalitetnih vina od autohtonih sorti -- Pošip, Plavac Mali, Rosé, Prošek i druge"
+        "text": "Proizvodimo 6 kvalitetnih vina od autohtonih sorti -- Pošip, Plavac Mali, Divjok, Bogdanuša, RosEtta i Prošek"
       },
       "hospitality": {
         "title": "Ocjena 4.9/5",
@@ -73,7 +73,7 @@
       },
       "passion": {
         "title": "BIWC 2024 Gold",
-        "text": "Naš Plavac Mali osvojio je zlatnu medalju i Best of Show Croatia na Balkans International Wine Competition"
+        "text": "Naš Pošip osvojio je zlatnu medalju i Best of Show Croatia, a Divjok srebrnu medalju na Balkans International Wine Competition"
       }
     }
   },

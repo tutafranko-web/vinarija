@@ -56,7 +56,7 @@
   "about": {
     "sectionTitle": "About Us",
     "sectionSubtitle": "Five generations of Hvar winemaking tradition",
-    "story": "Hvar island witnesses 2,400 years of winemaking history -- it all started with the arrival of ancient Greeks and it is still happening. The Luviji family has been making wine on this unique island for five generations. Our vineyards on the sun-drenched slopes of Hvar produce grapes of exceptional quality, and every bottle of our wine carries a story of patience, dedication and respect for nature.\n\nOur tasting room is located in the old family house in the very center of Hvar town. We also have a rooftop restaurant where we offer guests authentic Dalmatian dishes paired with our wines. We produce 6 brands of quality wines -- from fresh whites to powerful reds, including our award-winning Plavac Mali which won the Gold medal and Best of Show Croatia title at BIWC 2024.",
+    "story": "Hvar island witnesses 2,400 years of winemaking history -- it all started with the arrival of ancient Greeks and it is still happening. The Luviji family has been making wine on this unique island for five generations. Our vineyards on the sun-drenched slopes of Hvar produce grapes of exceptional quality, and every bottle of our wine carries a story of patience, dedication and respect for nature.\n\nOur tasting room is located in the old family house at Jurja Novaka 6/1, in the very center of Hvar town. We also have a rooftop restaurant where we offer guests authentic Dalmatian dishes paired with our wines. We produce 6 brands of quality wines -- from fresh whites to powerful reds, including our award-winning Pošip which won the Gold medal and Best of Show Croatia title at BIWC 2024, and Divjok which won the Silver medal.",
     "mission": "Become part of the Hvar wine story -- where history meets tradition!",
     "values": {
       "tradition": {
@@ -65,7 +65,7 @@
       },
       "quality": {
         "title": "6 Wine Brands",
-        "text": "We produce 6 quality wines from indigenous varieties -- Posip, Plavac Mali, Rose, Prosek and more"
+        "text": "We produce 6 quality wines from indigenous varieties -- Pošip, Plavac Mali, Divjok, Bogdanuša, RosEtta and Prošek"
       },
       "hospitality": {
         "title": "Rated 4.9/5",
@@ -73,7 +73,7 @@
       },
       "passion": {
         "title": "BIWC 2024 Gold",
-        "text": "Our Plavac Mali won the Gold medal and Best of Show Croatia at the Balkans International Wine Competition"
+        "text": "Our Pošip won Gold + Best of Show Croatia and Divjok won Silver at the Balkans International Wine Competition"
       }
     }
   },

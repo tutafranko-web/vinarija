@@ -13,14 +13,14 @@ export async function generateMetadata({
     path: "/wines-restaurant",
     image: "/images/wine/boca-nagrada.jpeg",
     hr: {
-      title: "Vina i Restoran -- Luviji Hvar | Plavac Mali, Pošip, Bogdanuša",
+      title: "Vina i Restoran -- Luviji Hvar | Pošip, Plavac Mali, Bogdanuša",
       description:
-        "6 brendova hvarskih vina (Plavac Mali BIWC 2024 Gold, Pošip, Bogdanuša, Rosé, Prošek, Divjok) i rooftop restoran s tradicionalnom dalmatinskom kuhinjom u centru Hvara.",
+        "6 brendova hvarskih vina (Pošip BIWC 2024 Gold + Best of Show, Divjok Silver, Plavac Mali, Bogdanuša, RosEtta, Prošek) i rooftop restoran s tradicionalnom dalmatinskom kuhinjom.",
     },
     en: {
-      title: "Wines & Restaurant -- Luviji Hvar | Plavac Mali, Pošip, Bogdanuša",
+      title: "Wines & Restaurant -- Luviji Hvar | Pošip, Plavac Mali, Bogdanuša",
       description:
-        "6 Hvar wine brands (Plavac Mali BIWC 2024 Gold, Pošip, Bogdanuša, Rosé, Prošek, Divjok) and a rooftop restaurant with traditional Dalmatian cuisine in Hvar town center.",
+        "6 Hvar wine brands (Pošip BIWC 2024 Gold + Best of Show, Divjok Silver, Plavac Mali, Bogdanuša, RosEtta, Prošek) and a rooftop restaurant with traditional Dalmatian cuisine.",
     },
   });
 }

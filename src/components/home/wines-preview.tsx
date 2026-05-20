@@ -50,10 +50,16 @@ export function WinesPreview() {
                         ? locale === "hr" ? "Crno" : "Red"
                         : wine.type === "white"
                         ? locale === "hr" ? "Bijelo" : "White"
-                        : "Rose"}
+                        : "Rosé"}
                     </span>
                     {wine.award && (
-                      <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide bg-yellow-500/90 text-white">
+                      <span
+                        className={`inline-block px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wide text-white ${
+                          wine.award.toLowerCase().includes("silver")
+                            ? "bg-slate-400"
+                            : "bg-yellow-500/90"
+                        }`}
+                      >
                         {wine.award}
                       </span>
                     )}

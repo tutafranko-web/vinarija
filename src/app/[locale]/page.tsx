@@ -23,13 +23,13 @@ export async function generateMetadata({
       title:
         "Luviji Vinarija Hvar | Degustacija Vina i Rooftop Restoran",
       description:
-        "Obiteljska vinarija i rooftop restoran u centru Hvara. 5 generacija, 6 brendova vina, BIWC 2024 Gold za Plavac Mali. Degustacije od 25 €. Ocjena 4.9/5 -- TripAdvisor.",
+        "Obiteljska vinarija i rooftop restoran u centru Hvara. 5 generacija, 6 brendova vina, BIWC 2024 Gold + Best of Show Croatia za Pošip. Degustacije od 25 €. Ocjena 4.9/5 -- TripAdvisor.",
     },
     en: {
       title:
         "Luviji Winery Hvar | Wine Tasting & Rooftop Restaurant",
       description:
-        "Family winery and rooftop restaurant in the heart of Hvar. 5 generations, 6 wine brands, BIWC 2024 Gold for Plavac Mali. Tastings from €25. Rated 4.9/5 -- TripAdvisor.",
+        "Family winery and rooftop restaurant in the heart of Hvar. 5 generations, 6 wine brands, BIWC 2024 Gold + Best of Show Croatia for Pošip. Tastings from €25. Rated 4.9/5 -- TripAdvisor.",
     },
   });
 }
