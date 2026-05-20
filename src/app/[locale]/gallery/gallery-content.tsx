@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
-import { ScrollReveal } from "@/components/shared/scroll-reveal";
 import { X } from "lucide-react";
 
 type Category = "all" | "vineyard" | "wine" | "restaurant" | "hvar";
@@ -15,13 +14,11 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
-  // Vinogradi
   {
     src: "/images/vineyard/vinograd.jpeg",
     alt: "Vinograd Luviji na Hvaru - grozdovi Pošipa",
     category: "vineyard",
   },
-  // Vina
   {
     src: "/images/wine/boca-nagrada.jpeg",
     alt: "Luviji Pošip - BIWC 2024 Gold, Best of Show Croatia",
@@ -34,7 +31,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     src: "/images/wine/rosetta.jpeg",
-    alt: "Luviji RosEtta rosé - svježi roze od Plavca Malog",
+    alt: "Luviji RosEtta rosé",
     category: "wine",
   },
   {
@@ -44,34 +41,32 @@ const galleryImages: GalleryImage[] = [
   },
   {
     src: "/images/cellar/podrum-1.jpg",
-    alt: "Vinski podrum Luviji - kameni zidovi i drveni stolovi",
+    alt: "Vinski podrum Luviji - kameni zidovi",
     category: "wine",
   },
   {
     src: "/images/cellar/podrum-2.jpeg",
-    alt: "Vinski podrum Luviji - degustacijska sala s lusterom",
+    alt: "Vinski podrum Luviji - degustacijska sala",
     category: "wine",
   },
-  // Restoran
   {
     src: "/images/restaurant/gregada.jpeg",
-    alt: "Gregada - tradicionalno hvarsko jelo od svježe ribe",
+    alt: "Gregada - tradicionalno hvarsko jelo",
     category: "restaurant",
   },
   {
     src: "/images/restaurant/terasa.jpeg",
-    alt: "Rooftop terasa restorana Luviji s pogledom na Hvar",
+    alt: "Rooftop terasa restorana Luviji",
     category: "restaurant",
   },
-  // Hvar (koristimo postojeće Luviji slike koje pokazuju Hvar)
   {
     src: "/images/wine/boca-hvar.jpeg",
-    alt: "Pogled na grad Hvar - krovovi i katedrala",
+    alt: "Pogled na grad Hvar",
     category: "hvar",
   },
   {
     src: "/images/restaurant/terasa.jpeg",
-    alt: "Stari grad Hvar - rooftop pogled iz restorana",
+    alt: "Stari grad Hvar - pogled iz restorana",
     category: "hvar",
   },
 ];
@@ -122,32 +117,35 @@ export function GalleryContent() {
           ))}
         </div>
 
-        {/* Image Grid */}
+        {/* Image Grid - simple CSS, no animation library */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredImages.map((img, i) => (
-            <ScrollReveal
-              key={`${img.src}-${activeCategory}`}
-              delay={i * 0.05}
-              className="w-full"
+            <div
+              key={`${img.src}-${i}`}
+              onClick={() => setLightboxImage(img.src)}
+              className="relative w-full overflow-hidden rounded-xl cursor-pointer group bg-muted"
+              style={{ aspectRatio: "1 / 1" }}
             >
-              <button
-                type="button"
-                onClick={() => setLightboxImage(img.src)}
-                className="relative block w-full aspect-square rounded-xl overflow-hidden group cursor-pointer bg-muted"
-              >
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                  quality={75}
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
-              </button>
-            </ScrollReveal>
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                quality={75}
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+            </div>
           ))}
         </div>
+
+        {filteredImages.length === 0 && (
+          <p className="text-center text-muted-foreground py-12">
+            {locale === "hr"
+              ? "Nema slika u ovoj kategoriji."
+              : "No images in this category."}
+          </p>
+        )}
       </div>
 
       {/* Lightbox */}
@@ -157,12 +155,14 @@ export function GalleryContent() {
           onClick={() => setLightboxImage(null)}
         >
           <button
+            type="button"
             className="absolute top-4 right-4 text-white hover:text-white/80 transition-colors"
             onClick={() => setLightboxImage(null)}
+            aria-label="Close"
           >
             <X className="h-8 w-8" />
           </button>
-          <div className="relative max-w-4xl max-h-[85vh] w-full h-full">
+          <div className="relative max-w-4xl w-full" style={{ aspectRatio: "4 / 3" }}>
             <Image
               src={lightboxImage}
               alt="Luviji galerija - uvećana slika"
