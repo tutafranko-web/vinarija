@@ -44,7 +44,7 @@ export const wines: Wine[] = [
       "Duboke tamne boje s intenzivnim aromama šumskog voća, začina i mediteranskog bilja. Snažno i kompleksno, s izraženim karakterom.",
     tastingNotesEn:
       "Deep dark color with intense aromas of forest fruit, spices and Mediterranean herbs. Powerful and complex, with pronounced character.",
-    image: "/images/wine/boca-hvar.jpeg",
+    image: "/images/wine/divjok.jpeg",
     award: "BIWC 2024 Silver",
   },
   {
@@ -93,7 +93,7 @@ export const wines: Wine[] = [
       "Nježno ružičaste boje s aromama jagode, maline i latica ruže. Lagano i osvježavajuće, s ugodnom kiselinom i voćnim završetkom.",
     tastingNotesEn:
       "Delicate pink color with aromas of strawberry, raspberry and rose petals. Light and refreshing, with pleasant acidity and a fruity finish.",
-    image: "/images/wine/boca-hvar.jpeg",
+    image: "/images/wine/rosetta.jpeg",
   },
   {
     id: "prosek",
