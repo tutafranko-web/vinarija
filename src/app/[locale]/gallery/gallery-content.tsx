@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import Image from "next/image";
 import { X } from "lucide-react";
 
 type Category = "all" | "vineyard" | "wine" | "restaurant" | "hvar";
@@ -117,24 +116,26 @@ export function GalleryContent() {
           ))}
         </div>
 
-        {/* Image Grid - simple CSS, no animation library */}
+        {/* Bulletproof image grid - plain HTML img tags, explicit height fallback */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredImages.map((img, i) => (
             <div
               key={`${img.src}-${i}`}
               onClick={() => setLightboxImage(img.src)}
-              className="relative w-full overflow-hidden rounded-xl cursor-pointer group bg-muted"
-              style={{ aspectRatio: "1 / 1" }}
+              className="relative w-full overflow-hidden rounded-xl cursor-pointer bg-muted hover:shadow-xl transition-shadow"
+              style={{ minHeight: "200px", aspectRatio: "1 / 1" }}
             >
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={img.src}
                 alt={img.alt}
-                fill
-                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                quality={75}
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                loading={i < 4 ? "eager" : "lazy"}
+                decoding="async"
+                width={400}
+                height={400}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                style={{ display: "block" }}
               />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
             </div>
           ))}
         </div>
@@ -162,14 +163,12 @@ export function GalleryContent() {
           >
             <X className="h-8 w-8" />
           </button>
-          <div className="relative max-w-4xl w-full" style={{ aspectRatio: "4 / 3" }}>
-            <Image
+          <div className="relative max-w-4xl w-full max-h-[85vh]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={lightboxImage}
               alt="Luviji galerija - uvećana slika"
-              fill
-              sizes="100vw"
-              quality={85}
-              className="object-contain"
+              className="w-full h-auto max-h-[85vh] object-contain"
             />
           </div>
         </div>
