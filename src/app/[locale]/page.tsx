@@ -8,7 +8,7 @@ import { RestaurantPreview } from "@/components/home/restaurant-preview";
 import { Testimonials } from "@/components/home/testimonials";
 import { FaqSection } from "@/components/home/faq-section";
 import { CtaSection } from "@/components/home/cta-section";
-import { FaqJsonLd } from "@/components/shared/json-ld";
+import { FaqJsonLd, MenuJsonLd } from "@/components/shared/json-ld";
 
 export async function generateMetadata({
   params,
@@ -21,15 +21,15 @@ export async function generateMetadata({
     image: "/images/wine/boca-nagrada.jpeg",
     hr: {
       title:
-        "Luviji Vinarija Hvar | Degustacija Vina i Rooftop Restoran",
+        "Luviji Vinarija Hvar -- BIWC 2024 Gold | Degustacija & Restoran",
       description:
-        "Obiteljska vinarija i rooftop restoran u centru Hvara. 5 generacija, 6 brendova vina, BIWC 2024 Gold + Best of Show Croatia za Pošip. Degustacije od 25 €. Ocjena 4.9/5 -- TripAdvisor.",
+        "Posjetite Luviji vinariju u centru Hvara. Nagrađivani Pošip (BIWC 2024 Gold + Best of Show Croatia), Divjok Silver. Degustacije 4/5/6 vina od 25 €. Rooftop restoran. Otvoreno 18-23h. Rezerviraj online.",
     },
     en: {
       title:
-        "Luviji Winery Hvar | Wine Tasting & Rooftop Restaurant",
+        "Luviji Winery Hvar -- BIWC 2024 Gold | Tasting & Restaurant",
       description:
-        "Family winery and rooftop restaurant in the heart of Hvar. 5 generations, 6 wine brands, BIWC 2024 Gold + Best of Show Croatia for Pošip. Tastings from €25. Rated 4.9/5 -- TripAdvisor.",
+        "Visit Luviji winery in Hvar town center. Award-winning Pošip (BIWC 2024 Gold + Best of Show Croatia), Divjok Silver. Wine tastings 4/5/6 wines from €25. Rooftop restaurant. Open 6-11pm. Reserve online.",
     },
   });
 }
@@ -43,6 +43,7 @@ export default async function HomePage({
   return (
     <>
       <FaqJsonLd locale={locale} />
+      <MenuJsonLd locale={locale} />
       <HeroImage />
       <StoryPreview />
       <WinesPreview />

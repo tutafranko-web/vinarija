@@ -16,14 +16,14 @@ export async function generateMetadata({
     path: "/gallery",
     image: "/images/cellar/podrum-2.jpeg",
     hr: {
-      title: "Galerija -- Luviji Vinarija Hvar | Vinogradi, Vina, Restoran",
+      title: "Galerija Luviji -- Vinogradi, Podrum & Rooftop Restoran Hvar",
       description:
-        "Pogledajte galeriju Luviji vinarije: vinogradi na sunčanim padinama Hvara, vinski podrum, rooftop restoran i tradicionalna dalmatinska jela.",
+        "Foto galerija Luviji vinarije iz Hvara: vinogradi Pošipa, nagrađivane boce (BIWC 2024 Gold), autentični vinski podrum, rooftop restoran i gregada -- tradicionalno hvarsko jelo.",
     },
     en: {
-      title: "Gallery -- Luviji Winery Hvar | Vineyards, Wines, Restaurant",
+      title: "Luviji Gallery -- Vineyards, Cellar & Rooftop Restaurant Hvar",
       description:
-        "Browse the Luviji winery gallery: vineyards on the sunny slopes of Hvar, wine cellar, rooftop restaurant and traditional Dalmatian dishes.",
+        "Photo gallery of Luviji winery in Hvar: Pošip vineyards, award-winning bottles (BIWC 2024 Gold), authentic wine cellar, rooftop restaurant and gregada -- traditional Hvar dish.",
     },
   });
 }

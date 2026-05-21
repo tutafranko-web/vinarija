@@ -101,7 +101,7 @@ export function OrganizationJsonLd() {
       longitude: 16.4411,
     },
     servesCuisine: ["Croatian", "Dalmatian", "Mediterranean"],
-    pričeRange: "$$",
+    priceRange: "$$",
     paymentAccepted: ["Cash", "Credit Card"],
     currenciesAccepted: "EUR",
     openingHoursSpecification: [
@@ -146,20 +146,20 @@ export function OrganizationJsonLd() {
         "@type": "Offer",
         name: "Wine Tasting -- 4 Wines + Platter",
         description: "4 wines tasting with homemade cheese & meat platter",
-        priče: "25",
-        pričeCurrency: "EUR",
+        price: "25",
+        priceCurrency: "EUR",
       },
       {
         "@type": "Offer",
         name: "Wine Tasting -- 5 Wines + Platter",
-        priče: "30",
-        pričeCurrency: "EUR",
+        price: "30",
+        priceCurrency: "EUR",
       },
       {
         "@type": "Offer",
         name: "Wine Tasting -- 6 Wines + Platter (with Prosek)",
-        priče: "35",
-        pričeCurrency: "EUR",
+        price: "35",
+        priceCurrency: "EUR",
       },
     ],
     sameAs: [
@@ -167,6 +167,118 @@ export function OrganizationJsonLd() {
       "https://www.instagram.com/luviji",
       "https://www.tripadvisor.com/Attraction_Review-g303808-d23519765-Reviews-Wine_tasting_room_Luviji-Hvar_Hvar_Island_Split_Dalmatia_County_Dalmatia.html",
       "https://bookmeatable.com/restaurants/konoba-luviji-rooftop-135",
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function WebSiteJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}#website`,
+    name: "Luviji",
+    alternateName: "Luviji Vinarija Hvar",
+    url: SITE_URL,
+    description:
+      "Family winery and rooftop restaurant in Hvar. BIWC 2024 Gold for Pošip. Wine tasting from €25.",
+    publisher: { "@id": `${SITE_URL}#organization` },
+    inLanguage: ["hr-HR", "en-US"],
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/hr/blog?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function SpeakableJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", ".speakable-description", "[data-speakable]"],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function MenuJsonLd({ locale }: { locale: string }) {
+  const isHr = locale === "hr";
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    name: isHr ? "Jelovnik Luviji Rooftop" : "Luviji Rooftop Menu",
+    inLanguage: isHr ? "hr-HR" : "en-US",
+    provider: { "@id": `${SITE_URL}#organization` },
+    hasMenuSection: [
+      {
+        "@type": "MenuSection",
+        name: isHr ? "Tradicionalna dalmatinska jela" : "Traditional Dalmatian dishes",
+        hasMenuItem: [
+          {
+            "@type": "MenuItem",
+            name: "Gregada",
+            description: isHr
+              ? "Tradicionalno hvarsko jelo od svježe bijele ribe, krumpira, kapara i bijelog vina"
+              : "Traditional Hvar dish of fresh white fish, potatoes, capers and white wine",
+            suitableForDiet: "https://schema.org/GlutenFreeDiet",
+          },
+          {
+            "@type": "MenuItem",
+            name: isHr ? "Hobotnica ispod peke" : "Octopus under the bell",
+            description: isHr
+              ? "Sporo pečena hobotnica s krumpirom i začinskim biljem"
+              : "Slow-baked octopus with potatoes and herbs",
+          },
+          {
+            "@type": "MenuItem",
+            name: isHr ? "Svježa riba s roštilja" : "Fresh grilled fish",
+            description: isHr
+              ? "Riba ulovljena lokalno, s maslinovim uljem i limunom"
+              : "Locally caught fish, with olive oil and lemon",
+          },
+          {
+            "@type": "MenuItem",
+            name: isHr ? "Pašticada s njokima" : "Pasticada with gnocchi",
+            description: isHr
+              ? "Dalmatinski specijalitet -- gulaš od goveđeg mesa"
+              : "Dalmatian specialty -- slow-cooked beef stew",
+          },
+        ],
+      },
+      {
+        "@type": "MenuSection",
+        name: isHr ? "Vlastita vina" : "Our own wines",
+        hasMenuItem: [
+          { "@type": "MenuItem", name: "Pošip (BIWC 2024 Gold)" },
+          { "@type": "MenuItem", name: "Divjok (BIWC 2024 Silver)" },
+          { "@type": "MenuItem", name: "Plavac Mali" },
+          { "@type": "MenuItem", name: "Bogdanuša" },
+          { "@type": "MenuItem", name: "RosEtta Rosé" },
+          { "@type": "MenuItem", name: "Prošek (desertno vino)" },
+        ],
+      },
     ],
   };
 

@@ -13,14 +13,14 @@ export async function generateMetadata({
     path: "/blog",
     image: "/images/vineyard/vinograd.jpeg",
     hr: {
-      title: "Blog -- Luviji Vinarija | Vino, Hvar i Tradicionalna Kuhinja",
+      title: "Blog Luviji -- Hvarska Vina, Recepti & Vodič kroz Hvar",
       description:
-        "Pročitajte članke o hvarskom vinu, tradicionalnoj dalmatinskoj kuhinji i otoku Hvaru. Plavac Mali, gregada, recepti -- sve što trebate znati.",
+        "Stručni članci o hvarskim vinima (Plavac Mali, Pošip, Prošek), tradicionalnoj dalmatinskoj kuhinji (gregada, peka), berbi i razlozima za posjet otoku Hvaru.",
     },
     en: {
-      title: "Blog -- Luviji Winery | Wine, Hvar and Traditional Cuisine",
+      title: "Luviji Blog -- Hvar Wines, Recipes & Hvar Travel Guide",
       description:
-        "Read articles about Hvar wine, traditional Dalmatian cuisine and Hvar island. Plavac Mali, gregada, recipes -- everything you need to know.",
+        "Expert articles on Hvar wines (Plavac Mali, Pošip, Prošek), traditional Dalmatian cuisine (gregada, peka), grape harvest and reasons to visit Hvar island.",
     },
   });
 }

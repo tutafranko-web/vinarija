@@ -1,7 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { OrganizationJsonLd } from "@/components/shared/json-ld";
+import {
+  OrganizationJsonLd,
+  WebSiteJsonLd,
+  SpeakableJsonLd,
+} from "@/components/shared/json-ld";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,11 +32,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Luviji | Vinarija & Restoran Hvar",
-    template: "%s | Luviji",
+    default: "Luviji Vinarija Hvar -- BIWC 2024 Gold | Degustacija & Restoran",
+    template: "%s",
   },
   description:
-    "Obiteljska vinarija i rooftop restoran u srcu Hvara. 5 generacija tradicije, 6 brendova vina (Pošip BIWC 2024 Gold + Best of Show Croatia, Divjok Silver), degustacije od 25 €. Ocjena 4.9/5 -- TripAdvisor.",
+    "Luviji -- obiteljska vinarija i rooftop restoran u centru Hvara. Nagrađivani Pošip (BIWC 2024 Gold + Best of Show Croatia), Divjok Silver. Degustacije od 25 €. 4.9/5 na TripAdvisoru, #7 od 19 u Hvaru.",
   metadataBase: new URL(SITE_URL),
   manifest: "/manifest.json",
   applicationName: "Luviji",
@@ -119,7 +123,27 @@ export default function RootLayout({
   return (
     <html lang="hr" suppressHydrationWarning>
       <head>
+        <link
+          rel="preconnect"
+          href="https://bookmeatable.com"
+          crossOrigin="anonymous"
+        />
+        <link rel="dns-prefetch" href="https://bookmeatable.com" />
+        <meta name="theme-color" content="#7a1f33" />
+        <meta name="apple-mobile-web-app-title" content="Luviji" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="geo.region" content="HR-17" />
+        <meta name="geo.placename" content="Hvar" />
+        <meta name="geo.position" content="43.1729;16.4411" />
+        <meta name="ICBM" content="43.1729, 16.4411" />
+        <meta property="business:contact_data:street_address" content="Jurja Novaka 6/1" />
+        <meta property="business:contact_data:locality" content="Hvar" />
+        <meta property="business:contact_data:postal_code" content="21450" />
+        <meta property="business:contact_data:country_name" content="Croatia" />
+        <meta property="business:contact_data:phone_number" content="+385915198444" />
         <OrganizationJsonLd />
+        <WebSiteJsonLd />
+        <SpeakableJsonLd />
       </head>
       <body
         className={`${inter.variable} ${playfair.variable} font-sans antialiased`}
